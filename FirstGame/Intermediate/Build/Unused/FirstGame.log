@@ -1,0 +1,6 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-).
+  Parsing headers for FirstGameEditor
+    Running UnrealHeaderTool "D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\FirstGame.uproject" "D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\FirstGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FirstGameEditor in 5.1301948 seconds
+  Target is up to date
+  Total execution time: 5.71 seconds

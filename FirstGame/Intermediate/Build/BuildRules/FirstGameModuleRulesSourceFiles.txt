@@ -1,0 +1,3 @@
+D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Source\FirstGame\FirstGame.Build.cs
+D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Source\FirstGame.Target.cs
+D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Source\FirstGameEditor.Target.cs

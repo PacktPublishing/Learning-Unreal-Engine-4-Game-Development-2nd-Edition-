@@ -1,0 +1,2 @@
+D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\Definitions.FirstGame.h
+d:\packtrepository\learning-unreal-engine-4-game-development-2nd-edition-\firstgame\source\firstgame\FirstGame.h
