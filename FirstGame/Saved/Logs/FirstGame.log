@@ -2666,3 +2666,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.16-18.54.55:376][498]SourceControl:  rewrite FirstGame/Content/StarterContent/Materials/M_Concrete_Grime.uasset (97%)
 [2019.11.16-18.54.55:376][498]SourceControl:  rewrite FirstGame/Content/StarterContent/Props/Materials/M_Chair.uasset (97%)
 [2019.11.16-18.54.55:380][498]SourceControl: Commited [master b099b51] Submitting for Chapter 3.
+[2019.11.16-21.15.45:871][927]LogHttp: Warning: 000001938CE32FC0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9DA25001-4885-06C9-F52C-91AC3409856B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=23752bf9448cfec047453f967ae07a94%7Ceac204a4c10a466596cdfb6d87fa3ace%7C2c2f346f-1dd1-491f-8bd7-97f478b49c1e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.11.16-21.15.45:872][927]LogHttp: Warning: 000001938CE32FC0: request failed, libcurl error: 0 (No error)
+[2019.11.16-21.15.45:872][927]LogHttp: Warning: 000001938CE32FC0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x19344a9ff70 [can pipeline])
+[2019.11.16-21.15.45:872][927]LogHttp: Warning: 000001938CE32FC0: libcurl info message cache 1 (Re-using existing connection! (#1651) with host datarouter.ol.epicgames.com)
+[2019.11.16-21.15.45:872][927]LogHttp: Warning: 000001938CE32FC0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.226.40.58) port 443 (#1651))
+[2019.11.16-21.15.45:872][927]LogHttp: Warning: 000001938CE32FC0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.11.16-21.15.45:873][927]LogHttp: Warning: 000001938CE32FC0: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.11.16-21.15.45:873][927]LogHttp: Warning: 000001938CE32FC0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.11.16-21.15.45:873][927]LogHttp: Warning: 000001938CE32FC0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.11.16-21.15.45:873][927]LogHttp: Warning: 000001938CE32FC0: libcurl info message cache 7 (Closing connection 1651)
+[2019.11.16-21.15.45:873][927]LogHttp: Warning: 000001938CE32FC0: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.11.16-21.15.46:204][928]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9DA25001-4885-06C9-F52C-91AC3409856B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=23752bf9448cfec047453f967ae07a94%7Ceac204a4c10a466596cdfb6d87fa3ace%7C2c2f346f-1dd1-491f-8bd7-97f478b49c1e&AppEnvironment=datacollector-binary&UploadType=eteventstream
