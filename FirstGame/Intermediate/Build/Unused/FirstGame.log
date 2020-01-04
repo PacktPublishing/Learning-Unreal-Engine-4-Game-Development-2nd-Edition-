@@ -1,6 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-).
   Parsing headers for FirstGameEditor
     Running UnrealHeaderTool "D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\FirstGame.uproject" "D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\FirstGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FirstGameEditor in 5.1301948 seconds
-  Target is up to date
-  Total execution time: 5.71 seconds
+  Reflection code generated for FirstGameEditor in 5.1163066 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 4 processes...
+    [1/4] FirstPawn.cpp
+    [2/4] UE4Editor-FirstGame-0013.lib
+       Creating library D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0013.lib and object D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0013.exp
+    [3/4] UE4Editor-FirstGame-0013.dll
+       Creating library D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0013.suppressed.lib and object D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0013.suppressed.exp
+    [4/4] FirstGameEditor.target
+  Total time in Parallel executor: 2.25 seconds
+  Total execution time: 8.27 seconds

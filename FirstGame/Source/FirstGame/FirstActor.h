@@ -15,6 +15,20 @@ public:
 	// Sets default values for this actor's properties
 	AFirstActor();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Learning About Specifiers")
+	float ActorLifetime;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Learning About Specifiers")
+	int32 ActorLevel;
+
+	UPROPERTY(VisibleAnywhere, Category = "Learning About Components")
+	class UStaticMeshComponent* FirstActorMesh;
+
+	UFUNCTION(BlueprintCallable)
+	void CheckLifetime();
+
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+	void PrintLevel();
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

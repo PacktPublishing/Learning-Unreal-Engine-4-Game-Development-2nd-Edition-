@@ -74,6 +74,7 @@ void AFirstGameCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AFirstGameCharacter::OnResetVR);
+
 }
 
 
