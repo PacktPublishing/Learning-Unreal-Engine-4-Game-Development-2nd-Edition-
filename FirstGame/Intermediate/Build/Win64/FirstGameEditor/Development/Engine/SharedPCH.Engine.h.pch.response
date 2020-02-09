@@ -247,11 +247,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/I D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine
-/Yc"D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine
+/Yc"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

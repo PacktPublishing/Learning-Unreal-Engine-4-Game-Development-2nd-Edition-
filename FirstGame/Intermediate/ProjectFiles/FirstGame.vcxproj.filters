@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FirstGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EC4BAC3B-C6B8-463C-9B22-D10AAD504E7B}</UniqueIdentifier>
+      <UniqueIdentifier>{1729813E-D7EB-4EA5-8D99-B49744B51985}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8424C9AE-5C85-407D-91DA-5B864B67CDEB}</UniqueIdentifier>
+      <UniqueIdentifier>{4643772F-8715-48E0-B6DC-AE471D57A55E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FirstGame">
-      <UniqueIdentifier>{B77BD3BA-992C-4A3C-8DCF-8F0210725702}</UniqueIdentifier>
+      <UniqueIdentifier>{F36559A1-792E-4498-8F5E-27AF3BFE8ECC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FirstGame\FirstActor.cpp">
       <Filter>Source\FirstGame</Filter>
@@ -65,5 +65,21 @@
     <ClInclude Include="..\..\Source\FirstGame\FirstPawn.h">
       <Filter>Source\FirstGame</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\FirstGame\MainCharacter.cpp">
+      <Filter>Source\FirstGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstGame\MainCharacter.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FirstGame\MainAnimInstance.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FirstGame\MainAnimInstance.cpp">
+      <Filter>Source\FirstGame</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

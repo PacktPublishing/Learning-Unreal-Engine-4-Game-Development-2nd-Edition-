@@ -1,6 +1,6 @@
-D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\Definitions.FirstGame.h
-d:\packtrepository\learning-unreal-engine-4-game-development-2nd-edition-\firstgame\source\firstgame\FirstPawn.h
-D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Inc\FirstGame\FirstPawn.generated.h
+D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\Definitions.FirstGame.h
+d:\packt_new_repository\learning-unreal-engine-4-game-development-2nd-edition-\firstgame\source\firstgame\FirstPawn.h
+D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Inc\FirstGame\FirstPawn.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h

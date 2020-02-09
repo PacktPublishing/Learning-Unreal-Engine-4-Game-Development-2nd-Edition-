@@ -498,9 +498,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
-/I D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Inc\FirstGame
-/I D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Source
-/I D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Source\FirstGame
+/I D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Inc\FirstGame
+/I D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Source
+/I D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Source\FirstGame
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
@@ -533,12 +533,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Inc\FirstGame\FirstGameGameMode.gen.cpp"
-/FI"D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\Definitions.FirstGame.h"
-/Fo"D:\PacktRepository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\FirstGameGameMode.gen.cpp.obj"
+/FI"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Inc\FirstGame\FirstGameGameMode.gen.cpp"
+/FI"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\Definitions.FirstGame.h"
+/Fo"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\FirstGameGameMode.gen.cpp.obj"
 /TP
 /GR-
 /W4
