@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FirstGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1729813E-D7EB-4EA5-8D99-B49744B51985}</UniqueIdentifier>
+      <UniqueIdentifier>{5488B9E5-46D6-44CF-8C89-17E102B3CE28}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4643772F-8715-48E0-B6DC-AE471D57A55E}</UniqueIdentifier>
+      <UniqueIdentifier>{4DDA646D-B361-4A43-B47D-09584768A4C3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FirstGame">
-      <UniqueIdentifier>{F36559A1-792E-4498-8F5E-27AF3BFE8ECC}</UniqueIdentifier>
+      <UniqueIdentifier>{B9BB2E1A-1064-4378-8A94-BC2F1B81E45B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FirstGame\FirstActor.cpp">
       <Filter>Source\FirstGame</Filter>
@@ -65,21 +65,23 @@
     <ClInclude Include="..\..\Source\FirstGame\FirstPawn.h">
       <Filter>Source\FirstGame</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\FirstGame\MainAnimInstance.cpp">
+      <Filter>Source\FirstGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstGame\MainAnimInstance.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstGame\MainCharacter.cpp">
       <Filter>Source\FirstGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FirstGame\MainCharacter.h">
       <Filter>Source\FirstGame</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\FirstGame\MainAnimInstance.h">
-      <Filter>Source\FirstGame</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\FirstGame\MainAnimInstance.cpp">
+    <ClCompile Include="..\..\Source\FirstGame\OverlapActor.cpp">
       <Filter>Source\FirstGame</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\FirstGame\OverlapActor.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
