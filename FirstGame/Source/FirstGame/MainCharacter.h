@@ -34,6 +34,19 @@ protected:
 	/** Called for side to side input */
 	void MoveRight(float Value);
 
+	/** Called when the right mouse button is pressed */
+	void LMBDown();
+
+	/** Called when the right mouse button is released */
+	void LMBUp();
+
+	/** Boolean for when the character is attacking */
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
+	bool bAttacking;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Anims")
+	class UAnimMontage* CountessAttackMontage;
+
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
