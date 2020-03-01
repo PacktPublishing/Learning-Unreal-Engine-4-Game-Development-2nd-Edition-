@@ -61,7 +61,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainCharacter); \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AMainCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AMainCharacter, FollowCamera); } \
 	FORCEINLINE static uint32 __PPO__bAttacking() { return STRUCT_OFFSET(AMainCharacter, bAttacking); } \
-	FORCEINLINE static uint32 __PPO__CountessAttackMontage() { return STRUCT_OFFSET(AMainCharacter, CountessAttackMontage); }
+	FORCEINLINE static uint32 __PPO__CountessAttackMontage() { return STRUCT_OFFSET(AMainCharacter, CountessAttackMontage); } \
+	FORCEINLINE static uint32 __PPO__Health() { return STRUCT_OFFSET(AMainCharacter, Health); } \
+	FORCEINLINE static uint32 __PPO__MaxHealth() { return STRUCT_OFFSET(AMainCharacter, MaxHealth); }
 
 
 #define FirstGame_Source_FirstGame_MainCharacter_h_9_PROLOG

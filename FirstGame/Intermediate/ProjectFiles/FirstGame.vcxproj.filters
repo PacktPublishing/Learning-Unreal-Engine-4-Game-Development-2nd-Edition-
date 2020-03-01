@@ -84,4 +84,20 @@
       <Filter>Source\FirstGame</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FirstGame\Item.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstGame\HealthPickup.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FirstGame\Item.cpp">
+      <Filter>Source\FirstGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstGame\HealthPickup.cpp">
+      <Filter>Source\FirstGame</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

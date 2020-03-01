@@ -545,3 +545,417 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.01-18.29.57:568][ 17]LogAssetRegistry: Asset discovery search completed in 11.9078 seconds
 [2020.03.01-18.29.57:573][ 17]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
 [2020.03.01-18.29.57:573][ 17]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2020.03.01-18.30.10:346][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.01-18.30.12:625][281]LogAssetEditorManager: Opening Asset editor for Class /Script/FirstGame.MainCharacter
+[2020.03.01-18.30.56:537][637]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={E0CE5BEE-43E3-6E29-DEFF-13975B53AFE6}
+[2020.03.01-18.33.23:639][118]LogSlate: Took 0.014550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.01-18.34.27:901][662]Candidate modules for hot reload:
+[2020.03.01-18.34.27:901][662]  FirstGame
+[2020.03.01-18.34.27:901][662]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FirstGame,6363 Win64 Development -TargetType=Editor -Project="D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/FirstGame.uproject" "D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/FirstGame.uproject"  -IgnoreJunk]
+[2020.03.01-18.38.31:146][662]CompilerResultsLog: New page: Compilation - Mar 1, 2020, 2:38:31 AM
+[2020.03.01-18.38.31:146][662]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-).
+[2020.03.01-18.38.31:146][662]CompilerResultsLog: Invalidating makefile for FirstGameEditor (source file added)
+[2020.03.01-18.38.31:147][662]CompilerResultsLog: Parsing headers for FirstGameEditor
+[2020.03.01-18.38.31:147][662]CompilerResultsLog:   Running UnrealHeaderTool "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\FirstGame.uproject" "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\FirstGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.01-18.38.31:147][662]CompilerResultsLog: Reflection code generated for FirstGameEditor in 19.1168266 seconds
+[2020.03.01-18.38.31:147][662]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.01-18.38.31:147][662]CompilerResultsLog: Building 9 actions with 4 processes...
+[2020.03.01-18.38.31:147][662]CompilerResultsLog:   [1/9] FirstGame.init.gen.cpp
+[2020.03.01-18.38.31:147][662]CompilerResultsLog:   [2/9] Item.gen.cpp
+[2020.03.01-18.38.31:147][662]CompilerResultsLog:   [3/9] MainCharacter.gen.cpp
+[2020.03.01-18.38.31:147][662]CompilerResultsLog:   [4/9] Item.cpp
+[2020.03.01-18.38.31:147][662]CompilerResultsLog:   [5/9] MainCharacter.cpp
+[2020.03.01-18.38.31:147][662]CompilerResultsLog:   [6/9] MainAnimInstance.cpp
+[2020.03.01-18.38.31:147][662]CompilerResultsLog:   [7/9] UE4Editor-FirstGame-6363.lib
+[2020.03.01-18.38.31:147][662]CompilerResultsLog:      Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-6363.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-6363.exp
+[2020.03.01-18.38.31:147][662]CompilerResultsLog:   [8/9] UE4Editor-FirstGame-6363.dll
+[2020.03.01-18.38.31:147][662]CompilerResultsLog:      Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-6363.suppressed.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-6363.suppressed.exp
+[2020.03.01-18.38.31:147][662]CompilerResultsLog:   [9/9] FirstGameEditor.target
+[2020.03.01-18.38.31:147][662]CompilerResultsLog: Total time in Parallel executor: 221.02 seconds
+[2020.03.01-18.38.31:147][662]CompilerResultsLog: Total execution time: 243.14 seconds
+[2020.03.01-18.38.31:147][662]LogMainFrame: MainFrame: Module compiling took 243.248 seconds
+[2020.03.01-18.38.31:166][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.03.01-18.38.31:185][662]LogClass: Could not find existing class Item in package /Script/FirstGame for HotReload, assuming new class
+[2020.03.01-18.38.31:195][662]LogContentBrowser: Native class hierarchy updated for 'FirstGame' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2020.03.01-18.38.31:198][662]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.03.01-18.38.31:252][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.03.01-18.38.31:262][662]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2872 classes and 684 folders.
+[2020.03.01-18.38.31:262][662]Display: HotReload took 243.4s.
+[2020.03.01-18.38.31:263][662]Warning: HotReload operation took 243.4s.
+[2020.03.01-18.38.31:439][662]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.03.01-18.38.31:451][662]LogHotReload: New module detected: UE4Editor-FirstGame-6363.dll
+[2020.03.01-18.38.31:491][663]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.01-18.38.31:546][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.03.01-18.38.31:549][663]LogContentBrowser: Native class hierarchy updated for 'FirstGame' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2020.03.01-18.38.31:552][663]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.03.01-18.38.31:570][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.03.01-18.38.31:580][663]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2872 classes and 684 folders.
+[2020.03.01-18.38.31:583][663]Display: HotReload took  0.1s.
+[2020.03.01-19.34.13:577][715]LogHotReload: New module detected: UE4Editor-FirstGame-0016.dll
+[2020.03.01-19.34.15:270][721]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.01-19.34.15:326][721]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2020.03.01-19.34.15:365][721]LogClass: Could not find existing class Item in package /Script/FirstGame for HotReload, assuming new class
+[2020.03.01-19.34.15:366][721]LogClass: Function OnOverlapBegin is new.
+[2020.03.01-19.34.15:412][721]LogHotReload: Re-instancing Item after hot-reload.
+[2020.03.01-19.34.15:512][721]LogContentBrowser: Native class hierarchy updated for 'FirstGame' in 0.0007 seconds. Added 8 classes and 2 folders.
+[2020.03.01-19.34.15:515][721]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.03.01-19.34.15:570][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.03.01-19.34.15:587][721]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2872 classes and 684 folders.
+[2020.03.01-19.34.15:591][721]Display: HotReload took  0.3s.
+[2020.03.01-19.37.50:045][750]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Chapter9/BaseItem.BaseItem
+[2020.03.01-19.37.50:544][750]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2020.03.01-19.37.51:418][750]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.03.01-19.37.51:570][750]LogRenderer: Reallocating scene render targets to support 1096x692 Format 10 NumSamples 1 (Frame:1).
+[2020.03.01-19.37.54:501][ 57]LogSlate: Window 'BaseItem' being destroyed
+[2020.03.01-19.38.53:370][810]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.03.01-19.38.53:370][810]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.031
+[2020.03.01-19.38.53:374][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Chapter9/BaseItem] ([1] browsable assets)...
+[2020.03.01-19.38.53:374][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Chapter9/BaseItem]
+[2020.03.01-19.38.53:408][810]LogSavePackage: Moving 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/BaseItem_Auto1276D47424380830DB3E58DAFD6AC4C5B.tmp' to 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Autosaves/Game/Chapter9/BaseItem_Auto1.uasset'
+[2020.03.01-19.38.53:412][810]LogFileHelpers: Auto-saving content packages took 0.040
+[2020.03.01-19.41.27:131][642]LogSlate: Took 0.006020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.01-19.41.27:332][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.01-19.41.29:764][927]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2020.03.01-19.41.29:764][927]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/EditorMeshes: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/EditorMeshes' is outside repository
+[2020.03.01-19.41.29:764][927]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository
+[2020.03.01-19.41.29:764][927]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository
+[2020.03.01-19.41.33:260][221]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/EditorMeshes/Camera: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/EditorMeshes/Camera' is outside repository
+[2020.03.01-19.41.33:260][221]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/VREditor/BasicMeshes: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/VREditor/BasicMeshes' is outside repository
+[2020.03.01-19.41.33:304][226]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Move.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Move.uasset' is outside repository
+[2020.03.01-19.41.33:362][233]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/VREditor/BasicMeshes/SM_Cube_03.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/VREditor/BasicMeshes/SM_Cube_03.uasset' is outside repository
+[2020.03.01-19.41.33:362][233]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/VREditor/TransformGizmo: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/VREditor/TransformGizmo' is outside repository
+[2020.03.01-19.41.35:835][446]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/EditorMeshes/Camera: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/EditorMeshes/Camera' is outside repository
+[2020.03.01-19.42.04:622][773]Cmd: DELETE
+[2020.03.01-19.42.04:623][773]Cmd: ACTOR DELETE
+[2020.03.01-19.42.04:639][773]LogEditorActor: Deleted Actor: BaseItem_C
+[2020.03.01-19.42.04:685][773]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.03.01-19.42.04:686][773]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2020.03.01-19.42.05:712][891]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.01-19.44.37:708][649]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.03.01-19.46.09:485][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.01-19.46.09:543][688]BlueprintLog: New page: Compile BaseItem
+[2020.03.01-19.46.09:749][688]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.03.01-19.46.10:158][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Chapter9/BaseItem" FILE="D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Content/Chapter9/BaseItem.uasset" SILENT=true
+[2020.03.01-19.46.10:176][723]LogSavePackage: Moving 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/BaseItemB7FBB0D245E78B193FECB38C5DA2CCA1.tmp' to 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Content/Chapter9/BaseItem.uasset'
+[2020.03.01-19.46.17:198][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_QuadPyramid)
+[2020.03.01-19.46.20:574][921]Cmd: DELETE
+[2020.03.01-19.46.20:575][921]Cmd: ACTOR DELETE
+[2020.03.01-19.46.20:576][921]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.03.01-19.46.20:612][921]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.03.01-19.46.20:612][921]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2020.03.01-19.46.22:657][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_WideCapsule)
+[2020.03.01-19.46.25:026][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_WideCapsule2)
+[2020.03.01-19.46.26:902][661]Cmd: DELETE
+[2020.03.01-19.46.26:902][661]Cmd: ACTOR DELETE
+[2020.03.01-19.46.26:904][661]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.03.01-19.46.26:931][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.03.01-19.46.26:932][661]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2020.03.01-19.46.28:155][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_WideCapsule)
+[2020.03.01-19.46.28:497][842]Cmd: DELETE
+[2020.03.01-19.46.28:497][842]Cmd: ACTOR DELETE
+[2020.03.01-19.46.28:498][842]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.03.01-19.46.28:522][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.03.01-19.46.28:522][842]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.03.01-19.46.30:139][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.01-19.46.36:999][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.01-19.46.37:084][837]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.01-19.46.37:106][837]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.46.37:109][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.01-19.46.37:109][837]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 1, 2020, 3:46:37 AM)
+[2020.03.01-19.46.37:117][837]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.03.01-19.46.37:119][837]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.01-19.46.37:139][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019420s)
+[2020.03.01-19.46.37:141][837]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.01-19.46.37:142][837]LogPlayLevel: PIE: World Init took: (0.002952s)
+[2020.03.01-19.46.37:142][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022651s)
+[2020.03.01-19.46.37:168][837]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.03.01-19.46.37:197][837]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.01-19.46.37:208][837]LogInit: FAudioDevice initialized.
+[2020.03.01-19.46.40:655][837]LogLoad: Game class is 'FirstGM_BP_C'
+[2020.03.01-19.46.40:670][837]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.03.01-11.46.40
+[2020.03.01-19.46.40:674][837]LogWorld: Bringing up level for play took: 0.005960
+[2020.03.01-19.46.40:676][837]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.03.01-19.46.40:701][837]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.03.01-19.46.40:737][837]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 3.748
+[2020.03.01-19.46.40:737][837]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.46.41:456][856]LogTemp: Warning: BeginOverlap
+[2020.03.01-19.46.42:909][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.46.42:909][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.01-19.46.42:910][ 28]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.01-19.46.42:910][ 28]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.01-19.46.42:918][ 28]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.01-19.46.42:919][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.46.42:964][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.01-19.46.42:996][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2020.03.01-19.46.43:009][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.03.01-19.49.00:029][405]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.03.01-19.49.00:262][405]LogSavePackage: Moving 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/ThirdPersonExampleMap_Auto23695FCD9433095E3EBA659A4B45401F3.tmp' to 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2020.03.01-19.49.00:286][405]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.324
+[2020.03.01-19.49.00:286][405]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.324
+[2020.03.01-19.53.47:281][483]BlueprintLog: New page: Compile BaseItem
+[2020.03.01-19.53.47:483][483]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.03.01-19.53.47:869][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Chapter9/BaseItem" FILE="D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Content/Chapter9/BaseItem.uasset" SILENT=true
+[2020.03.01-19.53.47:892][514]LogSavePackage: Moving 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/BaseItemB409A03F4055211A3BD2179A1D94E73F.tmp' to 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Content/Chapter9/BaseItem.uasset'
+[2020.03.01-19.53.49:479][700]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.01-19.53.49:492][700]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.53.49:493][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.01-19.53.49:493][700]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 1, 2020, 3:53:49 AM)
+[2020.03.01-19.53.49:493][700]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.01-19.53.49:503][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009907s)
+[2020.03.01-19.53.49:504][700]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.01-19.53.49:504][700]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2020.03.01-19.53.49:504][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011030s)
+[2020.03.01-19.53.49:563][700]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.03.01-19.53.49:588][700]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.01-19.53.49:599][700]LogInit: FAudioDevice initialized.
+[2020.03.01-19.53.49:614][700]LogLoad: Game class is 'FirstGM_BP_C'
+[2020.03.01-19.53.49:615][700]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.03.01-11.53.49
+[2020.03.01-19.53.49:615][700]LogWorld: Bringing up level for play took: 0.001073
+[2020.03.01-19.53.49:615][700]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.03.01-19.53.49:621][700]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.631
+[2020.03.01-19.53.49:621][700]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.53.50:041][747]LogTemp: Warning: BeginOverlap
+[2020.03.01-19.53.53:574][166]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.01-19.53.54:463][269]LogSlate: Took 0.005980 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.03.01-19.53.57:674][644]LogTemp: Warning: OnOverlapBegin
+[2020.03.01-19.54.01:167][ 47]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.54.01:168][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.01-19.54.01:168][ 47]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.01-19.54.01:168][ 47]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.01-19.54.01:175][ 47]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.01-19.54.01:175][ 47]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.54.01:208][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.01-19.54.01:212][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.03.01-19.54.01:270][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.03.01-19.54.24:071][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.01-19.54.24:170][664]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.01-19.54.24:185][664]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.54.24:185][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.01-19.54.24:185][664]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 1, 2020, 3:54:24 AM)
+[2020.03.01-19.54.24:185][664]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.01-19.54.24:196][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009976s)
+[2020.03.01-19.54.24:196][664]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.01-19.54.24:197][664]LogPlayLevel: PIE: World Init took: (0.001500s)
+[2020.03.01-19.54.24:197][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011956s)
+[2020.03.01-19.54.24:226][664]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.03.01-19.54.24:251][664]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.01-19.54.24:264][664]LogInit: FAudioDevice initialized.
+[2020.03.01-19.54.24:274][664]LogLoad: Game class is 'FirstGM_BP_C'
+[2020.03.01-19.54.24:276][664]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.03.01-11.54.24
+[2020.03.01-19.54.24:276][664]LogWorld: Bringing up level for play took: 0.001088
+[2020.03.01-19.54.24:276][664]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.03.01-19.54.24:281][664]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.709
+[2020.03.01-19.54.24:281][664]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.54.24:689][710]LogTemp: Warning: BeginOverlap
+[2020.03.01-19.54.29:444][280]LogTemp: Warning: OnOverlapBegin
+[2020.03.01-19.54.31:788][561]LogTemp: Warning: OnOverlapBegin
+[2020.03.01-19.54.33:537][770]LogTemp: Warning: OnOverlapBegin
+[2020.03.01-19.54.34:413][875]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.01-19.54.38:664][375]LogTemp: Warning: OnOverlapBegin
+[2020.03.01-19.54.42:763][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.54.42:764][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.01-19.54.42:764][866]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.01-19.54.42:764][866]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.01-19.54.42:774][866]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.01-19.54.42:775][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.54.42:809][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.01-19.54.42:813][866]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.03.01-19.54.42:863][870]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.03.01-19.54.43:285][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.01-19.54.48:389][522]BlueprintLog: New page: Compile BaseItem
+[2020.03.01-19.54.48:595][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.03.01-19.54.49:524][630]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.01-19.54.49:538][630]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.54.49:539][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.01-19.54.49:539][630]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 1, 2020, 3:54:49 AM)
+[2020.03.01-19.54.49:539][630]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.01-19.54.49:549][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009910s)
+[2020.03.01-19.54.49:550][630]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.01-19.54.49:550][630]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2020.03.01-19.54.49:550][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011409s)
+[2020.03.01-19.54.49:580][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.03.01-19.54.49:608][630]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.01-19.54.49:622][630]LogInit: FAudioDevice initialized.
+[2020.03.01-19.54.49:629][630]LogLoad: Game class is 'FirstGM_BP_C'
+[2020.03.01-19.54.49:631][630]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.03.01-11.54.49
+[2020.03.01-19.54.49:631][630]LogWorld: Bringing up level for play took: 0.001462
+[2020.03.01-19.54.49:632][630]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.03.01-19.54.49:637][630]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.647
+[2020.03.01-19.54.49:637][630]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.54.50:052][677]LogTemp: Warning: BeginOverlap
+[2020.03.01-19.54.54:209][174]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.54.54:210][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.01-19.54.54:210][174]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.01-19.54.54:211][174]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.01-19.54.54:218][174]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.01-19.54.54:219][174]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.54.54:252][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.01-19.54.54:255][174]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.03.01-19.54.54:313][179]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.03.01-19.55.14:566][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.01-19.57.39:351][267]LogHotReload: New module detected: UE4Editor-FirstGame-0017.dll
+[2020.03.01-19.57.40:706][272]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.01-19.57.40:744][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.03.01-19.57.40:800][272]LogContentBrowser: Native class hierarchy updated for 'FirstGame' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2020.03.01-19.57.40:805][272]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.03.01-19.57.40:910][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.03.01-19.57.40:924][272]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2872 classes and 684 folders.
+[2020.03.01-19.57.40:928][272]Display: HotReload took  0.2s.
+[2020.03.01-19.58.17:363][718]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.01-19.58.17:380][718]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.58.17:380][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.01-19.58.17:381][718]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 1, 2020, 3:58:17 AM)
+[2020.03.01-19.58.17:381][718]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.01-19.58.17:390][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009112s)
+[2020.03.01-19.58.17:391][718]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.01-19.58.17:391][718]LogPlayLevel: PIE: World Init took: (0.001277s)
+[2020.03.01-19.58.17:392][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010806s)
+[2020.03.01-19.58.17:460][718]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2020.03.01-19.58.17:487][718]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.01-19.58.17:504][718]LogInit: FAudioDevice initialized.
+[2020.03.01-19.58.17:509][718]LogLoad: Game class is 'FirstGM_BP_C'
+[2020.03.01-19.58.17:510][718]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.03.01-11.58.17
+[2020.03.01-19.58.17:511][718]LogWorld: Bringing up level for play took: 0.001126
+[2020.03.01-19.58.17:511][718]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.03.01-19.58.17:516][718]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.527
+[2020.03.01-19.58.17:516][718]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.58.17:938][766]LogTemp: Warning: BeginOverlap
+[2020.03.01-19.58.18:726][859]LogTemp: Warning: OnOverlapBegin
+[2020.03.01-19.58.20:201][ 35]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.58.20:202][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.01-19.58.20:202][ 35]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.01-19.58.20:203][ 35]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.01-19.58.20:210][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.01-19.58.20:210][ 35]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.58.20:249][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.01-19.58.20:264][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.03.01-19.58.20:306][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.03.01-19.58.32:974][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.01-19.58.33:066][581]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.01-19.58.33:085][581]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.58.33:086][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.01-19.58.33:086][581]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 1, 2020, 3:58:33 AM)
+[2020.03.01-19.58.33:086][581]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.01-19.58.33:096][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009776s)
+[2020.03.01-19.58.33:097][581]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.01-19.58.33:097][581]LogPlayLevel: PIE: World Init took: (0.000991s)
+[2020.03.01-19.58.33:097][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011196s)
+[2020.03.01-19.58.33:128][581]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.03.01-19.58.33:153][581]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.01-19.58.33:163][581]LogInit: FAudioDevice initialized.
+[2020.03.01-19.58.33:170][581]LogLoad: Game class is 'FirstGM_BP_C'
+[2020.03.01-19.58.33:172][581]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.03.01-11.58.33
+[2020.03.01-19.58.33:172][581]LogWorld: Bringing up level for play took: 0.001148
+[2020.03.01-19.58.33:172][581]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.03.01-19.58.33:177][581]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.188
+[2020.03.01-19.58.33:177][581]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.58.33:597][628]LogTemp: Warning: BeginOverlap
+[2020.03.01-19.58.36:233][944]LogTemp: Warning: OnOverlapBegin
+[2020.03.01-19.58.37:671][115]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.58.37:672][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.01-19.58.37:672][115]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.01-19.58.37:673][115]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.01-19.58.37:679][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.01-19.58.37:679][115]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.01-19.58.37:712][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.01-19.58.37:716][115]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.03.01-19.58.37:772][120]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.03.01-19.59.46:602][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.01-19.59.48:305][854]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2020.03.01-19.59.48:630][854]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.03.01-19.59.50:579][854]LogSlate: Window 'Save Content' being destroyed
+[2020.03.01-19.59.50:590][854]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.03.01-19.59.50:689][854]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.03.01-19.59.50:707][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Chapter9/BaseItem" FILE="D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Content/Chapter9/BaseItem.uasset" SILENT=true
+[2020.03.01-19.59.50:728][854]LogSavePackage: Moving 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/BaseItemF9961C784225EA5D6702EC9F87ED9A59.tmp' to 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Content/Chapter9/BaseItem.uasset'
+[2020.03.01-19.59.50:763][854]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.03.01-20.00.02:011][854]LogSlate: Window 'Submit Files' being destroyed
+[2020.03.01-20.00.02:045][854]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.03.01-20.00.02:141][854]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.03.01-20.00.03:501][854]LogSourceControl: commit successful: [master 7399243] Chapter 9 Pickups
+[2020.03.01-20.00.03:580][854]SourceControl: [master 7399243] Chapter 9 Pickups
+[2020.03.01-20.00.03:580][854]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2020.03.01-20.00.03:580][854]SourceControl:  create mode 100644 FirstGame/Content/Chapter9/BaseItem.uasset
+[2020.03.01-20.00.03:587][854]SourceControl: Commited [master 7399243] Chapter 9 Pickups.
+[2020.03.01-20.00.06:809][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.03.01-20.00.07:047][910]LogSavePackage: Moving 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/ThirdPersonExampleMap_Auto3B3C2260849468CA5A12B888D7D8B2C0B.tmp' to 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2020.03.01-20.00.07:094][910]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.320
+[2020.03.01-20.00.07:094][910]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.320
+[2020.03.01-20.08.03:903][327]LogHotReload: New module detected: UE4Editor-FirstGame-0018.dll
+[2020.03.01-20.08.06:275][335]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.01-20.08.06:334][335]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2020.03.01-20.08.06:435][335]LogContentBrowser: Native class hierarchy updated for 'FirstGame' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2020.03.01-20.08.06:445][335]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.03.01-20.08.06:550][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.03.01-20.08.06:569][335]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2872 classes and 684 folders.
+[2020.03.01-20.08.06:573][335]Display: HotReload took  0.3s.
+[2020.03.01-20.09.28:083][577]LogHotReload: New module detected: UE4Editor-FirstGame-0019.dll
+[2020.03.01-20.09.29:455][582]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.01-20.09.29:590][582]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2020.03.01-20.09.29:659][582]LogClass: Could not find existing class MainCharacter in package /Script/FirstGame for HotReload, assuming new class
+[2020.03.01-20.09.29:696][582]LogHotReload: Re-instancing MainCharacter after hot-reload.
+[2020.03.01-20.09.30:056][582]LogContentBrowser: Native class hierarchy updated for 'FirstGame' in 0.0006 seconds. Added 8 classes and 2 folders.
+[2020.03.01-20.09.30:070][582]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.03.01-20.09.30:230][582]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2020.03.01-20.09.30:269][582]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 2872 classes and 684 folders.
+[2020.03.01-20.09.30:275][582]Display: HotReload took  0.8s.
+[2020.03.01-20.15.55:653][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.01-20.16.05:967][990]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2020.03.01-20.16.05:967][990]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/EditorMeshes: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/EditorMeshes' is outside repository
+[2020.03.01-20.16.05:967][990]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository
+[2020.03.01-20.16.05:967][990]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository
+[2020.03.01-20.20.21:656][378]Candidate modules for hot reload:
+[2020.03.01-20.20.21:656][378]  FirstGame
+[2020.03.01-20.20.21:656][378]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FirstGame,2243 Win64 Development -TargetType=Editor -Project="D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/FirstGame.uproject" "D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/FirstGame.uproject"  -IgnoreJunk]
+[2020.03.01-20.22.33:909][378]CompilerResultsLog: New page: Compilation - Mar 1, 2020, 4:22:33 AM
+[2020.03.01-20.22.33:910][378]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-).
+[2020.03.01-20.22.33:910][378]CompilerResultsLog: Invalidating makefile for FirstGameEditor (source file added)
+[2020.03.01-20.22.33:910][378]CompilerResultsLog: Parsing headers for FirstGameEditor
+[2020.03.01-20.22.33:910][378]CompilerResultsLog:   Running UnrealHeaderTool "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\FirstGame.uproject" "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\FirstGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.01-20.22.33:910][378]CompilerResultsLog: Reflection code generated for FirstGameEditor in 19.8809853 seconds
+[2020.03.01-20.22.33:911][378]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.01-20.22.33:911][378]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.03.01-20.22.33:911][378]CompilerResultsLog:   [1/7] FirstGame.init.gen.cpp
+[2020.03.01-20.22.33:911][378]CompilerResultsLog:   [2/7] HealthPickup.cpp
+[2020.03.01-20.22.33:912][378]CompilerResultsLog:   [3/7] HealthPickup.gen.cpp
+[2020.03.01-20.22.33:912][378]CompilerResultsLog:   [4/7] MainCharacter.cpp
+[2020.03.01-20.22.33:912][378]CompilerResultsLog:   [5/7] UE4Editor-FirstGame-2243.lib
+[2020.03.01-20.22.33:912][378]CompilerResultsLog:      Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-2243.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-2243.exp
+[2020.03.01-20.22.33:912][378]CompilerResultsLog:   [6/7] UE4Editor-FirstGame-2243.dll
+[2020.03.01-20.22.33:912][378]CompilerResultsLog:      Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-2243.suppressed.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-2243.suppressed.exp
+[2020.03.01-20.22.33:913][378]CompilerResultsLog:   [7/7] FirstGameEditor.target
+[2020.03.01-20.22.33:913][378]CompilerResultsLog: Total time in Parallel executor: 107.76 seconds
+[2020.03.01-20.22.33:913][378]CompilerResultsLog: Total execution time: 132.16 seconds
+[2020.03.01-20.22.33:913][378]LogMainFrame: MainFrame: Module compiling took 132.261 seconds
+[2020.03.01-20.22.33:998][378]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2020.03.01-20.22.34:035][378]LogClass: Could not find existing class HealthPickup in package /Script/FirstGame for HotReload, assuming new class
+[2020.03.01-20.22.34:052][378]LogHotReload: Re-instancing MainCharacter after hot-reload.
+[2020.03.01-20.22.34:248][378]LogContentBrowser: Native class hierarchy updated for 'FirstGame' in 0.0003 seconds. Added 9 classes and 2 folders.
+[2020.03.01-20.22.34:253][378]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.03.01-20.22.34:353][378]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.03.01-20.22.34:368][378]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2873 classes and 684 folders.
+[2020.03.01-20.22.34:368][378]Display: HotReload took 132.7s.
+[2020.03.01-20.22.34:372][378]Warning: HotReload operation took 132.7s.
+[2020.03.01-20.22.34:541][378]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Source/FirstGame/HealthPickup.h'
+[2020.03.01-20.22.34:605][378]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Source/FirstGame/HealthPickup.cpp'
+[2020.03.01-20.22.34:610][378]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.03.01-20.22.34:885][378]LogHotReload: New module detected: UE4Editor-FirstGame-2243.dll
+[2020.03.01-20.22.34:946][379]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.01-20.22.35:037][379]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.03.01-20.22.35:042][379]LogContentBrowser: Native class hierarchy updated for 'FirstGame' in 0.0003 seconds. Added 9 classes and 2 folders.
+[2020.03.01-20.22.35:049][379]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.03.01-20.22.35:100][379]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2020.03.01-20.22.35:117][379]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2873 classes and 684 folders.
+[2020.03.01-20.22.35:120][379]Display: HotReload took  0.2s.
+[2020.03.01-20.29.52:082][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.03.01-20.29.53:087][ 40]LogSlate: Window 'Save Content' being destroyed
+[2020.03.01-20.29.53:224][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.03.01-20.29.53:501][ 40]LogSavePackage: Moving 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/ThirdPersonExampleMap2745D5434A1A5D273C52BFA5ADB3860E.tmp' to 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.03.01-20.29.53:542][ 40]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.355
+[2020.03.01-20.43.13:424][578]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.03.01-20.43.20:194][ 56]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2020.03.01-20.43.26:177][ 56]LogSlate: Window 'Submit Files' being destroyed
+[2020.03.01-20.43.28:623][ 56]LogSourceControl: commit successful: [master 147e0b9] Ch9 sub5
+[2020.03.01-20.43.28:677][ 56]SourceControl: [master 147e0b9] Ch9 sub5
+[2020.03.01-20.43.28:677][ 56]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2020.03.01-20.43.28:684][ 56]SourceControl: Commited [master 147e0b9] Ch9 sub5.

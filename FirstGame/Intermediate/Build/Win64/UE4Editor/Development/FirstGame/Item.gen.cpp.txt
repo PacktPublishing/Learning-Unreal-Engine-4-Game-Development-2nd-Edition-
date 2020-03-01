@@ -1,0 +1,5 @@
+D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\Definitions.FirstGame.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Source\FirstGame/Item.h
+d:\packt_new_repository\learning-unreal-engine-4-game-development-2nd-edition-\firstgame\intermediate\build\win64\ue4editor\inc\firstgame\Item.generated.h
