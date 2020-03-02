@@ -39,6 +39,22 @@ AMainCharacter::AMainCharacter()
 	MaxHealth = 100.f;
 }
 
+void AMainCharacter::SetHealth(float Amount)
+{
+	if (Amount > MaxHealth)
+	{
+		Health = MaxHealth;
+	}
+	else if (Amount < 0)
+	{
+		Health = 0;
+	}
+	else
+	{
+		Health = Amount;
+	}
+}
+
 // Called when the game starts or when spawned
 void AMainCharacter::BeginPlay()
 {

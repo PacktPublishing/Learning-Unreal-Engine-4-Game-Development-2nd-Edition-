@@ -23,7 +23,10 @@ public:
 	// Sets default values for this character's properties
 	AMainCharacter();
 
-
+	FORCEINLINE float GetHealth() { return Health; }
+	void SetHealth(float Amount);
+	FORCEINLINE float GetMaxHealth() { return MaxHealth; }
+	FORCEINLINE void SetMaxHealth(float Amount) { MaxHealth = Amount; }
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

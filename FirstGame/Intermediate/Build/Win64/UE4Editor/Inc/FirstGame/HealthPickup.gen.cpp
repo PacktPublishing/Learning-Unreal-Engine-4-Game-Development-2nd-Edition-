@@ -31,6 +31,11 @@ void EmptyLinkFunctionForGeneratedCodeHealthPickup() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealingAmount_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HealingAmount;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +50,18 @@ void EmptyLinkFunctionForGeneratedCodeHealthPickup() {}
 		{ "ModuleRelativePath", "HealthPickup.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHealthPickup_Statics::NewProp_HealingAmount_MetaData[] = {
+		{ "Category", "Healing" },
+		{ "Comment", "/** Amount this pickup will heal the player by */" },
+		{ "ModuleRelativePath", "HealthPickup.h" },
+		{ "ToolTip", "Amount this pickup will heal the player by" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHealthPickup_Statics::NewProp_HealingAmount = { "HealingAmount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHealthPickup, HealingAmount), METADATA_PARAMS(Z_Construct_UClass_AHealthPickup_Statics::NewProp_HealingAmount_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHealthPickup_Statics::NewProp_HealingAmount_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHealthPickup_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHealthPickup_Statics::NewProp_HealingAmount,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AHealthPickup_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AHealthPickup>::IsAbstract,
 	};
@@ -54,11 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeHealthPickup() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AHealthPickup_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_AHealthPickup_Statics::PropPointers),
 		0,
 		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_AHealthPickup_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AHealthPickup_Statics::Class_MetaDataParams))
@@ -72,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthPickup() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHealthPickup, 2517367761);
+	IMPLEMENT_CLASS(AHealthPickup, 4131205171);
 	template<> FIRSTGAME_API UClass* StaticClass<AHealthPickup>()
 	{
 		return AHealthPickup::StaticClass();

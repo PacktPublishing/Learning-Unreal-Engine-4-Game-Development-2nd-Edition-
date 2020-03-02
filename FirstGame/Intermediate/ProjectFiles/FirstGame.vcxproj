@@ -490,7 +490,9 @@
     <ClInclude Include="..\..\Source\FirstGame\MainAnimInstance.h" />
     <ClCompile Include="..\..\Source\FirstGame\MainCharacter.cpp" />
     <ClInclude Include="..\..\Source\FirstGame\MainCharacter.h" />
+    <ClCompile Include="..\..\Source\FirstGame\MainPlayerController.cpp" />
     <ClCompile Include="..\..\Source\FirstGame\OverlapActor.cpp" />
+    <ClInclude Include="..\..\Source\FirstGame\MainPlayerController.h" />
     <ClInclude Include="..\..\Source\FirstGame\OverlapActor.h" />
   </ItemGroup>
   <PropertyGroup>
