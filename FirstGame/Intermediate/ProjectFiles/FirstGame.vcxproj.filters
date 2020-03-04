@@ -94,6 +94,9 @@
     <ClInclude Include="..\..\Source\FirstGame\MainPlayerController.h">
       <Filter>Source\FirstGame</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FirstGame\FloorSwitch.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FirstGame\Item.cpp">
@@ -103,6 +106,9 @@
       <Filter>Source\FirstGame</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\FirstGame\MainPlayerController.cpp">
+      <Filter>Source\FirstGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstGame\FloorSwitch.cpp">
       <Filter>Source\FirstGame</Filter>
     </ClCompile>
   </ItemGroup>

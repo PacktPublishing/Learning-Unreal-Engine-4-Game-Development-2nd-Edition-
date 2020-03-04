@@ -1,15 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-).
   Parsing headers for FirstGameEditor
     Running UnrealHeaderTool "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\FirstGame.uproject" "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\FirstGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FirstGameEditor in 5.4192806 seconds
+  Reflection code generated for FirstGameEditor in 5.0102647 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 4 processes...
-    [1/5] MainPlayerController.gen.cpp
-    [2/5] MainPlayerController.cpp
-    [3/5] UE4Editor-FirstGame-0063.lib
-       Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0063.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0063.exp
-    [4/5] UE4Editor-FirstGame-0063.dll
-       Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0063.suppressed.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0063.suppressed.exp
-    [5/5] FirstGameEditor.target
-  Total time in Parallel executor: 45.12 seconds
-  Total execution time: 51.77 seconds
+  Building 4 actions with 4 processes...
+    [1/4] FloorSwitch.cpp
+    [2/4] UE4Editor-FirstGame-0069.lib
+       Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0069.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0069.exp
+    [3/4] UE4Editor-FirstGame-0069.dll
+       Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0069.suppressed.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0069.suppressed.exp
+    [4/4] FirstGameEditor.target
+  Total time in Parallel executor: 47.36 seconds
+  Total execution time: 53.17 seconds
