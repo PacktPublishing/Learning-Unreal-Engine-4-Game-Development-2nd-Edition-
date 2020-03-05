@@ -13,8 +13,50 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FIRSTGAME_MainPlayerController_generated_h
 
-#define FirstGame_Source_FirstGame_MainPlayerController_h_15_RPC_WRAPPERS
-#define FirstGame_Source_FirstGame_MainPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FirstGame_Source_FirstGame_MainPlayerController_h_15_RPC_WRAPPERS \
+	virtual void RemovePauseMenu_Implementation(); \
+	virtual void DisplayPauseMenu_Implementation(); \
+ \
+	DECLARE_FUNCTION(execRemovePauseMenu) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RemovePauseMenu_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDisplayPauseMenu) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DisplayPauseMenu_Implementation(); \
+		P_NATIVE_END; \
+	}
+
+
+#define FirstGame_Source_FirstGame_MainPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void RemovePauseMenu_Implementation(); \
+	virtual void DisplayPauseMenu_Implementation(); \
+ \
+	DECLARE_FUNCTION(execRemovePauseMenu) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RemovePauseMenu_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDisplayPauseMenu) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DisplayPauseMenu_Implementation(); \
+		P_NATIVE_END; \
+	}
+
+
+#define FirstGame_Source_FirstGame_MainPlayerController_h_15_EVENT_PARMS
+#define FirstGame_Source_FirstGame_MainPlayerController_h_15_CALLBACK_WRAPPERS
 #define FirstGame_Source_FirstGame_MainPlayerController_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMainPlayerController(); \
@@ -60,12 +102,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainPlayerController); \
 
 
 #define FirstGame_Source_FirstGame_MainPlayerController_h_15_PRIVATE_PROPERTY_OFFSET
-#define FirstGame_Source_FirstGame_MainPlayerController_h_12_PROLOG
+#define FirstGame_Source_FirstGame_MainPlayerController_h_12_PROLOG \
+	FirstGame_Source_FirstGame_MainPlayerController_h_15_EVENT_PARMS
+
+
 #define FirstGame_Source_FirstGame_MainPlayerController_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FirstGame_Source_FirstGame_MainPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
 	FirstGame_Source_FirstGame_MainPlayerController_h_15_RPC_WRAPPERS \
+	FirstGame_Source_FirstGame_MainPlayerController_h_15_CALLBACK_WRAPPERS \
 	FirstGame_Source_FirstGame_MainPlayerController_h_15_INCLASS \
 	FirstGame_Source_FirstGame_MainPlayerController_h_15_STANDARD_CONSTRUCTORS \
 public: \
@@ -77,6 +123,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FirstGame_Source_FirstGame_MainPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
 	FirstGame_Source_FirstGame_MainPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FirstGame_Source_FirstGame_MainPlayerController_h_15_CALLBACK_WRAPPERS \
 	FirstGame_Source_FirstGame_MainPlayerController_h_15_INCLASS_NO_PURE_DECLS \
 	FirstGame_Source_FirstGame_MainPlayerController_h_15_ENHANCED_CONSTRUCTORS \
 private: \

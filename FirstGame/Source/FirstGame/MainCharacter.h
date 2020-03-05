@@ -43,6 +43,9 @@ protected:
 	/** Called when the right mouse button is released */
 	void LMBUp();
 
+	/** Called when the escape or Q buttons are pressed */
+	void ESCDown();
+
 	/** Boolean for when the character is attacking */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
 	bool bAttacking;
@@ -55,6 +58,10 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerStats")
 	float MaxHealth;
+
+	/** Reference to the Player Controller */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
+	class AMainPlayerController* MainPlayerController;
 
 public:
 	// Called every frame
