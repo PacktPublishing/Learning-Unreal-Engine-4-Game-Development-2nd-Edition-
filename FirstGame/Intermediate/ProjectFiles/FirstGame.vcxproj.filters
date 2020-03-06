@@ -97,6 +97,9 @@
     <ClInclude Include="..\..\Source\FirstGame\FloorSwitch.h">
       <Filter>Source\FirstGame</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FirstGame\CountessSaveGame.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FirstGame\Item.cpp">
@@ -109,6 +112,9 @@
       <Filter>Source\FirstGame</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\FirstGame\FloorSwitch.cpp">
+      <Filter>Source\FirstGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstGame\CountessSaveGame.cpp">
       <Filter>Source\FirstGame</Filter>
     </ClCompile>
   </ItemGroup>

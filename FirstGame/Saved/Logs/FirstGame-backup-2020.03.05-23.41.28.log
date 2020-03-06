@@ -1,0 +1,2480 @@
+﻿Log file open, 03/05/20 14:46:48
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: FirstGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.183790
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.37.0
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Engine.ini]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Engine.ini]
+[2020.03.05-22.46.49:638][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Engine.ini]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Engine.ini]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.05-22.46.49:638][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Engine.ini]
+[2020.03.05-22.46.49:638][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Engine.ini]
+[2020.03.05-22.46.49:641][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:641][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.05-22.46.49:641][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.05-22.46.49:641][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:641][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.05-22.46.49:641][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:641][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.05-22.46.49:641][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.05-22.46.49:641][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.05-22.46.49:642][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.05-22.46.49:643][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.05-22.46.49:643][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.05-22.46.49:643][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:643][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.05-22.46.49:643][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.05-22.46.49:643][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.05-22.46.49:643][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.05-22.46.49:650][  0]LogHAL: Display: Platform has ~ 16 GB [17052942336 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.05-22.46.49:650][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.05-22.46.49:650][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.05-22.46.49:650][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.05-22.46.49:651][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.05-22.46.49:655][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.05-22.46.49:655][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.05-22.46.49:655][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Config/Windows/Engine.ini]
+[2020.03.05-22.46.49:656][  0]LogInit: Computer: DESKTOP-SKCHLRK
+[2020.03.05-22.46.49:656][  0]LogInit: User: SethUlibarri
+[2020.03.05-22.46.49:656][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.05-22.46.49:656][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.05-22.46.49:656][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.05-22.46.49:656][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.05-22.46.49:656][  0]LogMemory: Process Physical Memory: 104.04 MB used, 104.04 MB peak
+[2020.03.05-22.46.49:656][  0]LogMemory: Process Virtual Memory: 92.03 MB used, 92.03 MB peak
+[2020.03.05-22.46.49:656][  0]LogMemory: Physical Memory: 9655.13 MB used,  6607.83 MB free, 16262.95 MB total
+[2020.03.05-22.46.49:656][  0]LogMemory: Virtual Memory: 4664.81 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2020.03.05-22.46.49:660][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.05-22.46.49:929][  0]LogInit: Using OS detected language (en-US).
+[2020.03.05-22.46.49:929][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.05-22.46.49:930][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.05-22.46.50:228][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.05-22.46.50:342][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.05-22.46.50:342][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.05-22.46.52:633][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.03.05-22.46.52:633][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.05-22.46.52:709][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.03.05-22.46.52:709][  0]LogD3D11RHI:       8088/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.03.05-22.46.52:763][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.03.05-22.46.52:763][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.03.05-22.46.52:765][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.05-22.46.52:765][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.05-22.46.52:765][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.05-22.46.52:774][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.05-22.46.52:774][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.05-22.46.52:774][  0]LogWindows: EnumDisplayDevices:
+[2020.03.05-22.46.52:774][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.03.05-22.46.52:774][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.03.05-22.46.52:774][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.03.05-22.46.52:774][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.03.05-22.46.52:775][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2020.03.05-22.46.52:775][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.03.05-22.46.52:775][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.03.05-22.46.52:775][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.03.05-22.46.52:775][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.03.05-22.46.52:775][  0]LogD3D11RHI:   Driver Version: 425.31 (internal:25.21.14.2531, unified:425.31)
+[2020.03.05-22.46.52:775][  0]LogD3D11RHI:      Driver Date: 4-9-2019
+[2020.03.05-22.46.52:775][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.03.05-22.46.52:809][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.05-22.46.52:838][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.05-22.46.53:342][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.03.05-22.46.53:350][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.03.05-22.46.53:359][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.03.05-22.46.53:367][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.03.05-22.46.53:380][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.03.05-22.46.53:389][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.03.05-22.46.53:398][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.05-22.46.53:407][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.03.05-22.46.53:413][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.03.05-22.46.53:452][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.03.05-22.46.53:455][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.03.05-22.46.53:480][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.03.05-22.46.53:480][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.03.05-22.46.53:492][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.03.05-22.46.53:492][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.03.05-22.46.53:499][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.03.05-22.46.53:507][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.05-22.46.53:513][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.03.05-22.46.53:529][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.03.05-22.46.53:554][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.03.05-22.46.53:554][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.03.05-22.46.53:555][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.05-22.46.53:567][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.05-22.46.53:655][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Intermediate/Shaders/WorkingDirectory/23812/).
+[2020.03.05-22.46.53:655][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Seth Ulibarri/AppData/Local/Temp/UnrealShaderWorkingDir/735F472C401234F6E5F1069DFB2FE054/'.
+[2020.03.05-22.46.53:658][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.05-22.46.53:658][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.05-22.46.53:658][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.05-22.46.55:957][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.05-22.46.56:175][  0]LogDerivedDataCache: Loaded boot cache 0.22s 76MB C:/Users/Seth Ulibarri/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.03.05-22.46.56:175][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Seth Ulibarri/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.03.05-22.46.56:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.05-22.46.56:175][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.05-22.46.56:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.05-22.46.56:175][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.05-22.46.56:195][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.05-22.46.56:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.05-22.46.56:195][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.05-22.46.56:196][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Seth Ulibarri/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.05-22.46.56:196][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.05-22.46.56:196][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.05-22.46.56:213][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.05-22.46.56:215][  0]LogSlate: Using FreeType 2.6.0
+[2020.03.05-22.46.56:230][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.05-22.46.56:475][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2020.03.05-22.46.56:735][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.05-22.46.56:960][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.05-22.46.56:960][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.05-22.46.56:960][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.05-22.46.56:960][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.05-22.46.56:960][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.05-22.46.56:989][  0]LogNetVersion: FirstGame 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2093783489)
+[2020.03.05-22.46.57:929][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.048608 seconds
+[2020.03.05-22.46.57:935][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.03.05-22.46.57:935][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.03.05-22.46.57:935][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.05-22.47.01:005][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.05-22.47.01:008][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.05-22.47.01:136][  0]SourceControl: Source control is disabled
+[2020.03.05-22.47.01:964][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.05-22.47.02:185][  0]LogOcInput: OculusInput pre-init called
+[2020.03.05-22.47.02:851][  0]LogEngine: Initializing Engine...
+[2020.03.05-22.47.02:878][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.03.05-22.47.02:879][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.05-22.47.03:245][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.05-22.47.03:263][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.05-22.47.03:365][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.05-22.47.03:382][  0]LogInit: FAudioDevice initialized.
+[2020.03.05-22.47.03:383][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.05-22.47.03:452][  0]LogDerivedDataCache: Saved boot cache 0.07s 76MB C:/Users/Seth Ulibarri/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.03.05-22.47.03:461][  0]LogInit: Texture streaming: Enabled
+[2020.03.05-22.47.03:484][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.05-22.47.03:485][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.05-22.47.03:485][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.05-22.47.03:558][  0]LogInit: Transaction tracking system initialized
+[2020.03.05-22.47.03:604][  0]BlueprintLog: New page: Editor Load
+[2020.03.05-22.47.03:709][  0]LocalizationService: Localization service is disabled
+[2020.03.05-22.47.03:852][  0]LogLinker: Warning: Failed to load '/Game/100+crosshairspack/Demo/100+CrosshairsPack_Tutorial': Can't find file.
+[2020.03.05-22.47.03:852][  0]LogLinker: Warning: Failed to load '/Game/100+crosshairspack/Demo/100+CrosshairsPack_Tutorial': Can't find file.
+[2020.03.05-22.47.03:852][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/100+crosshairspack/Demo/100+CrosshairsPack_Tutorial.100+CrosshairsPack_Tutorial_C'
+[2020.03.05-22.47.04:251][  0]LogFileCache: Scanning file cache for directory 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Content/' took 0.02s
+[2020.03.05-22.47.04:251][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.05-22.47.04:251][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.05-22.47.04:642][  0]LightingResults: New page: Lighting Build
+[2020.03.05-22.47.04:646][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.05-22.47.04:647][  0]MapCheck: New page: Map Check
+[2020.03.05-22.47.04:647][  0]LightingResults: New page: Lighting Build
+[2020.03.05-22.47.04:667][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.03.05-22.47.05:347][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.05-22.47.05:356][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.05-22.47.05:377][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.03.05-22.47.05:377][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.05-22.47.05:377][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.078ms to complete.
+[2020.03.05-22.47.05:377][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.775
+[2020.03.05-22.47.05:569][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-22.47.05:577][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-22.47.05:583][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-22.47.05:591][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-22.47.05:604][  0]LogCollectionManager: Loaded 0 collections in 0.001806 seconds
+[2020.03.05-22.47.05:612][  0]LogFileCache: Scanning file cache for directory 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Saved/Collections/' took 0.00s
+[2020.03.05-22.47.05:612][  0]LogFileCache: Scanning file cache for directory 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Content/Developers/SethUlibarri/Collections/' took 0.00s
+[2020.03.05-22.47.05:612][  0]LogFileCache: Scanning file cache for directory 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Content/Collections/' took 0.00s
+[2020.03.05-22.47.05:612][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.03.05-22.47.05:620][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2874 classes and 682 folders.
+[2020.03.05-22.47.05:630][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.05-22.47.05:932][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.05-22.47.05:940][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.03.05-22.47.07:315][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.03.05-22.47.07:354][  0]LogSlate: Took 0.010093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.05-22.47.07:362][  0]LogSlate: Took 0.005317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.05-22.47.07:370][  0]LogSlate: Took 0.005101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.05-22.47.07:477][  0]LogRenderer: Reallocating scene render targets to support 1036x488 Format 10 NumSamples 1 (Frame:1).
+[2020.03.05-22.47.07:556][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.05-22.47.07:557][  0]LogLoad: (Engine Initialization) Total time: 21.50 seconds
+[2020.03.05-22.47.07:557][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.05-22.47.07:647][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.05-22.47.08:222][ 10]LogSlate: Took 0.012660 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.05-22.47.08:735][ 17]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.05-22.47.08:864][ 20]LogAssetRegistry: Asset discovery search completed in 12.3899 seconds
+[2020.03.05-22.47.08:867][ 20]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2020.03.05-22.47.08:867][ 20]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2020.03.05-22.47.09:225][ 57]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/VREditor/Sounds/UI: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/VREditor/Sounds/UI' is outside repository
+[2020.03.05-22.48.07:560][  3]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={ED494535-4B5D-AC33-BAB0-D0882CE9FEBD}
+[2020.03.05-22.52.44:539][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.05-22.52.44:678][330]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.05-22.52.44:694][330]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.05-22.52.44:694][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.05-22.52.44:694][330]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 5, 2020, 6:52:44 AM)
+[2020.03.05-22.52.44:695][330]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.03.05-22.52.44:696][330]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.05-22.52.44:711][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015089s)
+[2020.03.05-22.52.44:713][330]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.05-22.52.44:713][330]LogPlayLevel: PIE: World Init took: (0.001329s)
+[2020.03.05-22.52.44:713][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016694s)
+[2020.03.05-22.52.44:735][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.03.05-22.52.44:763][330]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.05-22.52.44:775][330]LogInit: FAudioDevice initialized.
+[2020.03.05-22.52.46:707][330]LogClass: Warning: Type mismatch in Main of HUDOverlayWidget_C - Previous (BoolProperty) Current(ObjectProperty) for package:  FObjectReader
+[2020.03.05-22.52.47:275][330]LogLoad: Game class is 'FirstGM_BP_C'
+[2020.03.05-22.52.47:277][330]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.03.05-14.52.47
+[2020.03.05-22.52.47:278][330]LogWorld: Bringing up level for play took: 0.001360
+[2020.03.05-22.52.47:278][330]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.03.05-22.52.47:287][330]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.03.05-22.52.47:293][330]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.304
+[2020.03.05-22.52.47:293][330]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.05-22.52.47:679][363]LogTemp: Warning: BeginOverlap
+[2020.03.05-22.52.50:791][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.05-22.52.50:925][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-22.52.50:925][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.05-22.52.50:925][743]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.05-22.52.50:926][743]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.05-22.52.50:935][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.05-22.52.50:935][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.05-22.52.50:960][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-22.52.50:964][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.03.05-22.52.51:027][748]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.03.05-22.52.52:028][865]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.05-22.52.52:044][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.05-22.52.52:045][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.05-22.52.52:045][865]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 5, 2020, 6:52:52 AM)
+[2020.03.05-22.52.52:045][865]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.05-22.52.52:056][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010387s)
+[2020.03.05-22.52.52:057][865]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.05-22.52.52:057][865]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2020.03.05-22.52.52:057][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011516s)
+[2020.03.05-22.52.52:078][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.03.05-22.52.52:103][865]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.05-22.52.52:113][865]LogInit: FAudioDevice initialized.
+[2020.03.05-22.52.52:122][865]LogLoad: Game class is 'FirstGM_BP_C'
+[2020.03.05-22.52.52:123][865]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.03.05-14.52.52
+[2020.03.05-22.52.52:124][865]LogWorld: Bringing up level for play took: 0.001112
+[2020.03.05-22.52.52:124][865]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.03.05-22.52.52:130][865]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.86
+[2020.03.05-22.52.52:130][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.05-22.52.52:543][911]LogTemp: Warning: BeginOverlap
+[2020.03.05-22.52.53:616][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.05-22.52.54:994][186]LogTemp: Warning: AHealthPickup::OnOverlapBegin
+[2020.03.05-22.52.54:994][186]LogTemp: Warning: OnOverlapBegin
+[2020.03.05-22.53.05:443][414]LogTemp: Warning: OnOverlapBegin
+[2020.03.05-22.53.08:376][765]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.05-22.53.08:376][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-22.53.08:377][765]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.05-22.53.08:377][765]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.05-22.53.08:383][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.05-22.53.08:383][765]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.05-22.53.08:406][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-22.53.08:408][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.03.05-22.53.08:477][772]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.03.05-22.55.06:852][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.05-22.55.10:649][846]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2020.03.05-22.55.10:649][846]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/EngineLightProfiles: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/EngineLightProfiles' is outside repository
+[2020.03.05-22.55.10:649][846]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates' is outside repository
+[2020.03.05-22.55.10:649][846]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2020.03.05-22.55.10:649][846]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset' is outside repository
+[2020.03.05-22.55.10:649][846]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset' is outside repository
+[2020.03.05-22.55.10:649][846]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing' is outside repository
+[2020.03.05-22.55.10:649][846]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository
+[2020.03.05-22.55.10:649][846]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset' is outside repository
+[2020.03.05-22.55.10:649][846]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/AbberatedBlur-Texture.uasset: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/AbberatedBlur-Texture.uasset' is outside repository
+[2020.03.05-22.55.15:324][382]LogSlate: Took 0.007536 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.05-22.56.05:010][ 99]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.03.05-22.57.39:310][522]Candidate modules for hot reload:
+[2020.03.05-22.57.39:310][522]  FirstGame
+[2020.03.05-22.57.39:310][522]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FirstGame,2325 Win64 Development -TargetType=Editor -Project="D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/FirstGame.uproject" "D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/FirstGame.uproject"  -IgnoreJunk]
+[2020.03.05-22.59.40:347][522]CompilerResultsLog: New page: Compilation - Mar 5, 2020, 6:59:40 AM
+[2020.03.05-22.59.40:347][522]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-).
+[2020.03.05-22.59.40:347][522]CompilerResultsLog: Invalidating makefile for FirstGameEditor (source file added)
+[2020.03.05-22.59.40:347][522]CompilerResultsLog: Parsing headers for FirstGameEditor
+[2020.03.05-22.59.40:347][522]CompilerResultsLog:   Running UnrealHeaderTool "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\FirstGame.uproject" "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\FirstGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.05-22.59.40:347][522]CompilerResultsLog: Reflection code generated for FirstGameEditor in 19.012157 seconds
+[2020.03.05-22.59.40:347][522]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.05-22.59.40:347][522]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.03.05-22.59.40:347][522]CompilerResultsLog:   [1/6] FirstGame.init.gen.cpp
+[2020.03.05-22.59.40:347][522]CompilerResultsLog:   [2/6] CountessSaveGame.cpp
+[2020.03.05-22.59.40:347][522]CompilerResultsLog:   [3/6] CountessSaveGame.gen.cpp
+[2020.03.05-22.59.40:347][522]CompilerResultsLog:   [4/6] UE4Editor-FirstGame-2325.lib
+[2020.03.05-22.59.40:347][522]CompilerResultsLog:      Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-2325.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-2325.exp
+[2020.03.05-22.59.40:347][522]CompilerResultsLog:   [5/6] UE4Editor-FirstGame-2325.dll
+[2020.03.05-22.59.40:347][522]CompilerResultsLog:      Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-2325.suppressed.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-2325.suppressed.exp
+[2020.03.05-22.59.40:347][522]CompilerResultsLog:   [6/6] FirstGameEditor.target
+[2020.03.05-22.59.40:347][522]CompilerResultsLog: Total time in Parallel executor: 98.64 seconds
+[2020.03.05-22.59.40:347][522]CompilerResultsLog: Total execution time: 120.91 seconds
+[2020.03.05-22.59.40:347][522]LogMainFrame: MainFrame: Module compiling took 121.042 seconds
+[2020.03.05-22.59.40:369][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.03.05-22.59.40:392][522]LogClass: Could not find existing class CountessSaveGame in package /Script/FirstGame for HotReload, assuming new class
+[2020.03.05-22.59.40:414][522]LogContentBrowser: Native class hierarchy updated for 'FirstGame' in 0.0003 seconds. Added 12 classes and 2 folders.
+[2020.03.05-22.59.40:417][522]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2020.03.05-22.59.40:473][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.03.05-22.59.40:484][522]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2876 classes and 684 folders.
+[2020.03.05-22.59.40:485][522]Display: HotReload took 121.4s.
+[2020.03.05-22.59.40:486][522]Warning: HotReload operation took 121.4s.
+[2020.03.05-22.59.40:611][522]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Source/FirstGame/CountessSaveGame.h'
+[2020.03.05-22.59.40:689][522]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Packt_New_Repository/Learning-Unreal-Engine-4-Game-Development-2nd-Edition-/FirstGame/Source/FirstGame/CountessSaveGame.cpp'
+[2020.03.05-22.59.40:695][522]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.03.05-22.59.40:700][522]LogHotReload: New module detected: UE4Editor-FirstGame-2325.dll
+[2020.03.05-22.59.40:746][523]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.05-22.59.40:796][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.03.05-22.59.40:799][523]LogContentBrowser: Native class hierarchy updated for 'FirstGame' in 0.0003 seconds. Added 12 classes and 2 folders.
+[2020.03.05-22.59.40:802][523]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.03.05-22.59.40:821][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.03.05-22.59.40:832][523]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2876 classes and 684 folders.
+[2020.03.05-22.59.40:835][523]Display: HotReload took  0.1s.
+[2020.03.05-23.40.58:570][610]LogHotReload: New module detected: UE4Editor-FirstGame-0003.dll
+[2020.03.05-23.41.00:107][615]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.05-23.41.00:185][615]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2020.03.05-23.41.00:215][615]LogClass: Could not find existing class CountessSaveGame in package /Script/FirstGame for HotReload, assuming new class
+[2020.03.05-23.41.00:225][615]LogClass: Could not find existing class MainCharacter in package /Script/FirstGame for HotReload, assuming new class
+[2020.03.05-23.41.00:225][615]LogClass: Function LoadGame is new.
+[2020.03.05-23.41.00:225][615]LogClass: Function SaveGame is new.
+[2020.03.05-23.41.00:238][615]LogHotReload: Re-instancing CountessSaveGame after hot-reload.
+[2020.03.05-23.41.00:362][615]LogHotReload: Re-instancing MainCharacter after hot-reload.
+[2020.03.05-23.41.00:473][615]LogContentBrowser: Native class hierarchy updated for 'FirstGame' in 0.0011 seconds. Added 12 classes and 2 folders.
+[2020.03.05-23.41.00:477][615]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2020.03.05-23.41.00:548][615]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.03.05-23.41.00:577][615]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2876 classes and 684 folders.
+[2020.03.05-23.41.00:580][615]Display: HotReload took  0.5s.
+[2020.03.05-23.41.05:899][814]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.05-23.41.05:941][814]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.05-23.41.05:941][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.05-23.41.05:942][814]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 5, 2020, 7:41:05 AM)
+[2020.03.05-23.41.05:942][814]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.05-23.41.05:962][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019826s)
+[2020.03.05-23.41.05:964][814]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.05-23.41.05:964][814]LogPlayLevel: PIE: World Init took: (0.002210s)
+[2020.03.05-23.41.05:964][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022311s)
+[2020.03.05-23.41.05:987][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.03.05-23.41.06:018][814]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.05-23.41.06:041][814]LogInit: FAudioDevice initialized.
+[2020.03.05-23.41.06:055][814]LogLoad: Game class is 'FirstGM_BP_C'
+[2020.03.05-23.41.06:057][814]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.03.05-15.41.06
+[2020.03.05-23.41.06:057][814]LogWorld: Bringing up level for play took: 0.001947
+[2020.03.05-23.41.06:058][814]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.03.05-23.41.06:067][814]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.078
+[2020.03.05-23.41.06:068][814]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.05-23.41.06:108][814]LogScript: Warning: Attempted to access missing property 'Health'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:0186
+[2020.03.05-23.41.06:108][814]LogScript: Warning: Attempted to access missing property 'MaxHealth'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:01A5
+[2020.03.05-23.41.06:109][814]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:121][815]LogScript: Warning: Attempted to access missing property 'Health'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:0070
+[2020.03.05-23.41.06:122][815]LogScript: Warning: Attempted to access missing property 'MaxHealth'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:008F
+[2020.03.05-23.41.06:122][815]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:130][816]LogScript: Warning: Attempted to access missing property 'Health'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:0070
+[2020.03.05-23.41.06:130][816]LogScript: Warning: Attempted to access missing property 'MaxHealth'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:008F
+[2020.03.05-23.41.06:130][816]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:139][817]LogScript: Warning: Attempted to access missing property 'Health'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:0070
+[2020.03.05-23.41.06:139][817]LogScript: Warning: Attempted to access missing property 'MaxHealth'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:008F
+[2020.03.05-23.41.06:139][817]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:147][818]LogScript: Warning: Attempted to access missing property 'Health'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:0070
+[2020.03.05-23.41.06:147][818]LogScript: Warning: Attempted to access missing property 'MaxHealth'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:008F
+[2020.03.05-23.41.06:147][818]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:154][819]LogScript: Warning: Attempted to access missing property 'Health'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:0070
+[2020.03.05-23.41.06:154][819]LogScript: Warning: Attempted to access missing property 'MaxHealth'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:008F
+[2020.03.05-23.41.06:154][819]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:164][820]LogScript: Warning: Attempted to access missing property 'Health'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:0070
+[2020.03.05-23.41.06:164][820]LogScript: Warning: Attempted to access missing property 'MaxHealth'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:008F
+[2020.03.05-23.41.06:165][820]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:171][821]LogScript: Warning: Attempted to access missing property 'Health'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:0070
+[2020.03.05-23.41.06:171][821]LogScript: Warning: Attempted to access missing property 'MaxHealth'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:008F
+[2020.03.05-23.41.06:171][821]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:179][822]LogScript: Warning: Attempted to access missing property 'Health'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	HUDOverlayWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUDOverlayWidget_C_0
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0:0070
+[2020.03.05-23.41.06:180][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:187][823]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:196][824]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:204][825]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:213][826]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:221][827]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:230][828]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:237][829]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:245][830]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:253][831]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:263][832]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:270][833]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:278][834]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:286][835]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:296][836]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:303][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:312][838]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:320][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:329][840]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:337][841]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:346][842]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:353][843]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:363][844]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:370][845]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:379][846]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:387][847]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:397][848]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:404][849]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:413][850]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:420][851]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:430][852]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:436][853]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:445][854]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:454][855]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:463][856]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:470][857]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:478][858]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:487][859]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:495][860]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:503][861]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:508][862]LogTemp: Warning: BeginOverlap
+[2020.03.05-23.41.06:511][862]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:519][863]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:528][864]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:536][865]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:545][866]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:553][867]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:562][868]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:569][869]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:578][870]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:586][871]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:595][872]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:603][873]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:612][874]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:620][875]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:629][876]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:636][877]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:645][878]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:653][879]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:662][880]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:670][881]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:678][882]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:686][883]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:695][884]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:703][885]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:712][886]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:722][887]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:729][888]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:737][889]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:745][890]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:754][891]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:762][892]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:770][893]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:779][894]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:787][895]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:798][896]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:804][897]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:812][898]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:819][899]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:829][900]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:836][901]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:845][902]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:853][903]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:863][904]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:871][905]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:880][906]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:887][907]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:897][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:904][909]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:913][910]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:921][911]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:930][912]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:937][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:946][914]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:954][915]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:964][916]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:971][917]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:980][918]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:988][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.06:998][920]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:005][921]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:015][922]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:021][923]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:031][924]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:038][925]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:050][926]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:056][927]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:068][928]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:079][929]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:087][930]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:101][931]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:109][932]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:121][933]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:131][934]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:140][935]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:149][936]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:157][937]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:168][938]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:174][939]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:185][940]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:192][941]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:219][942]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:226][943]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:235][944]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:243][945]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:252][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:260][947]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:268][948]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:276][949]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:285][950]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:293][951]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:301][952]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:310][953]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:318][954]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:326][955]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:335][956]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:343][957]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:352][958]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:360][959]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:368][960]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:376][961]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:384][962]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:393][963]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:401][964]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:409][965]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:418][966]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:426][967]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:434][968]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:442][969]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:451][970]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:459][971]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:468][972]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:477][973]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:485][974]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:493][975]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:501][976]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:509][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:518][978]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:526][979]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:534][980]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:542][981]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:551][982]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:559][983]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:568][984]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:576][985]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:585][986]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:593][987]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:601][988]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:609][989]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:618][990]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:626][991]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:635][992]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:643][993]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:651][994]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:660][995]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:668][996]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:676][997]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:685][998]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:693][999]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:701][  0]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:710][  1]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:718][  2]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:727][  3]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:734][  4]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:742][  5]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:751][  6]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:759][  7]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:767][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:776][  9]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:784][ 10]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:792][ 11]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:801][ 12]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:810][ 13]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:817][ 14]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:826][ 15]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:834][ 16]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:842][ 17]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:851][ 18]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:860][ 19]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:868][ 20]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:876][ 21]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:884][ 22]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:893][ 23]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:901][ 24]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:909][ 25]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:918][ 26]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:926][ 27]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:934][ 28]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:943][ 29]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:951][ 30]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:959][ 31]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:968][ 32]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:976][ 33]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:984][ 34]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.07:993][ 35]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:002][ 36]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:010][ 37]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:018][ 38]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:026][ 39]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:035][ 40]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:043][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:052][ 42]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:060][ 43]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:068][ 44]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:077][ 45]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:086][ 46]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:094][ 47]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:102][ 48]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:111][ 49]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:118][ 50]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:127][ 51]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:135][ 52]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:144][ 53]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:152][ 54]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:160][ 55]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:168][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:176][ 57]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:185][ 58]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:194][ 59]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:202][ 60]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:211][ 61]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:220][ 62]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:229][ 63]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:237][ 64]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:245][ 65]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:253][ 66]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:263][ 67]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:270][ 68]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:282][ 69]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:288][ 70]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:298][ 71]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:305][ 72]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:315][ 73]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:322][ 74]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:331][ 75]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:338][ 76]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:349][ 77]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:355][ 78]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:365][ 79]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:371][ 80]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:381][ 81]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:388][ 82]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:398][ 83]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:404][ 84]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:414][ 85]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:421][ 86]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:431][ 87]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:438][ 88]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:448][ 89]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:463][ 90]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:472][ 91]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:481][ 92]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:488][ 93]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:496][ 94]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:504][ 95]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:513][ 96]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:520][ 97]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:530][ 98]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:537][ 99]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:547][100]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:554][101]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:563][102]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:571][103]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:580][104]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:587][105]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:597][106]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:604][107]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:614][108]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:621][109]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:631][110]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:637][111]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:647][112]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:654][113]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:664][114]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:671][115]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:681][116]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:687][117]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:697][118]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:704][119]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:714][120]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:721][121]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:730][122]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:737][123]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:747][124]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:754][125]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:764][126]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:771][127]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:780][128]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:788][129]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:797][130]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:807][131]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:814][132]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:821][133]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:831][134]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:838][135]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:848][136]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:855][137]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:864][138]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:870][139]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:880][140]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:887][141]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:896][142]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:904][143]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:913][144]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:920][145]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:930][146]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:937][147]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:947][148]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:954][149]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:963][150]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:971][151]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:980][152]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:988][153]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Chapter9/HUDOverlayWidget.HUDOverlayWidget_C:GetPercent_0
+
+[2020.03.05-23.41.08:994][154]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.05-23.41.08:994][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-23.41.08:994][154]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.05-23.41.08:995][154]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.05-23.41.09:006][154]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.05-23.41.09:006][154]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.05-23.41.09:029][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-23.41.09:032][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.03.05-23.41.09:133][156]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.03.05-23.41.10:951][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.05-23.41.11:070][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.03.05-23.41.24:022][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.03.05-23.41.24:104][919]LogSlate: Window 'FirstGame - Unreal Editor' being destroyed
+[2020.03.05-23.41.24:105][919]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.05-23.41.24:816][920]Cmd: QUIT_EDITOR
+[2020.03.05-23.41.25:602][920]LogExit: Preparing to exit.
+[2020.03.05-23.41.25:706][920]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.03.05-23.41.25:707][920]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.03.05-23.41.25:732][920]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.03.05-23.41.25:757][920]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.03.05-23.41.25:758][920]LogExit: Editor shut down
+[2020.03.05-23.41.25:759][920]LogExit: Transaction tracking system shut down
+[2020.03.05-23.41.26:254][920]LogExit: Object subsystem successfully closed.
+[2020.03.05-23.41.26:310][920]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.03.05-23.41.26:394][920]LogModuleManager: Shutting down and abandoning module FirstGame (679)
+[2020.03.05-23.41.26:394][920]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (676)
+[2020.03.05-23.41.26:394][920]LogModuleManager: Shutting down and abandoning module Voice (674)
+[2020.03.05-23.41.26:394][920]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (672)
+[2020.03.05-23.41.26:394][920]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (670)
+[2020.03.05-23.41.26:394][920]LogModuleManager: Shutting down and abandoning module SceneOutliner (668)
+[2020.03.05-23.41.26:395][920]LogModuleManager: Shutting down and abandoning module AddContentDialog (666)
+[2020.03.05-23.41.26:397][920]LogModuleManager: Shutting down and abandoning module WidgetCarousel (665)
+[2020.03.05-23.41.26:397][920]LogModuleManager: Shutting down and abandoning module EditorWidgets (662)
+[2020.03.05-23.41.26:397][920]LogModuleManager: Shutting down and abandoning module CollectionManager (660)
+[2020.03.05-23.41.26:398][920]LogModuleManager: Shutting down and abandoning module StatsViewer (658)
+[2020.03.05-23.41.26:399][920]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (656)
+[2020.03.05-23.41.26:399][920]LogModuleManager: Shutting down and abandoning module FoliageEdit (654)
+[2020.03.05-23.41.26:400][920]LogModuleManager: Shutting down and abandoning module LandscapeEditor (652)
+[2020.03.05-23.41.26:403][920]LogModuleManager: Shutting down and abandoning module MeshPaintMode (650)
+[2020.03.05-23.41.26:403][920]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (648)
+[2020.03.05-23.41.26:403][920]LogModuleManager: Shutting down and abandoning module ActorPickerMode (646)
+[2020.03.05-23.41.26:403][920]LogModuleManager: Shutting down and abandoning module GeometryMode (644)
+[2020.03.05-23.41.26:403][920]LogModuleManager: Shutting down and abandoning module TextureAlignMode (642)
+[2020.03.05-23.41.26:403][920]LogModuleManager: Shutting down and abandoning module BspMode (640)
+[2020.03.05-23.41.26:403][920]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (638)
+[2020.03.05-23.41.26:404][920]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (636)
+[2020.03.05-23.41.26:404][920]LogModuleManager: Shutting down and abandoning module AutomationWorker (634)
+[2020.03.05-23.41.26:404][920]LogModuleManager: Shutting down and abandoning module OculusMR (632)
+[2020.03.05-23.41.26:404][920]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (630)
+[2020.03.05-23.41.26:405][920]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (628)
+[2020.03.05-23.41.26:405][920]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (626)
+[2020.03.05-23.41.26:408][920]LogModuleManager: Shutting down and abandoning module PlacementMode (625)
+[2020.03.05-23.41.26:408][920]LogModuleManager: Shutting down and abandoning module MaterialEditor (624)
+[2020.03.05-23.41.26:410][920]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (620)
+[2020.03.05-23.41.26:411][920]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (618)
+[2020.03.05-23.41.26:411][920]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (616)
+[2020.03.05-23.41.26:411][920]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (614)
+[2020.03.05-23.41.26:411][920]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (612)
+[2020.03.05-23.41.26:411][920]LogModuleManager: Shutting down and abandoning module WebMMedia (610)
+[2020.03.05-23.41.26:412][920]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (608)
+[2020.03.05-23.41.26:412][920]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (606)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module SequenceRecorder (605)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (602)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (600)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (598)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (596)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (594)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (592)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (590)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (588)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (586)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (584)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (582)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module CharacterAI (580)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module SmartSnapping (578)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module SessionServices (576)
+[2020.03.05-23.41.26:414][920]LogModuleManager: Shutting down and abandoning module MeshPaint (574)
+[2020.03.05-23.41.26:415][920]LogModuleManager: Shutting down and abandoning module ViewportSnapping (572)
+[2020.03.05-23.41.26:415][920]LogModuleManager: Shutting down and abandoning module ViewportInteraction (570)
+[2020.03.05-23.41.26:415][920]LogModuleManager: Shutting down and abandoning module ClothPainter (568)
+[2020.03.05-23.41.26:416][920]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (567)
+[2020.03.05-23.41.26:418][920]LogModuleManager: Shutting down and abandoning module LogVisualizer (564)
+[2020.03.05-23.41.26:419][920]LogModuleManager: Shutting down and abandoning module IntroTutorials (562)
+[2020.03.05-23.41.26:419][920]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (561)
+[2020.03.05-23.41.26:419][920]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (558)
+[2020.03.05-23.41.26:419][920]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (556)
+[2020.03.05-23.41.26:419][920]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (554)
+[2020.03.05-23.41.26:419][920]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (552)
+[2020.03.05-23.41.26:419][920]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (551)
+[2020.03.05-23.41.27:631][920]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (548)
+[2020.03.05-23.41.27:631][920]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (546)
+[2020.03.05-23.41.27:632][920]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (544)
+[2020.03.05-23.41.27:632][920]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (542)
+[2020.03.05-23.41.27:632][920]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (540)
+[2020.03.05-23.41.27:632][920]LogModuleManager: Shutting down and abandoning module InputBindingEditor (538)
+[2020.03.05-23.41.27:632][920]LogModuleManager: Shutting down and abandoning module MergeActors (536)
+[2020.03.05-23.41.27:633][920]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (534)
+[2020.03.05-23.41.27:634][920]LogModuleManager: Shutting down and abandoning module LocalizationService (533)
+[2020.03.05-23.41.27:635][920]LogModuleManager: Shutting down and abandoning module HardwareTargeting (530)
+[2020.03.05-23.41.27:635][920]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (528)
+[2020.03.05-23.41.27:635][920]LogModuleManager: Shutting down and abandoning module UndoHistory (526)
+[2020.03.05-23.41.27:636][920]LogModuleManager: Shutting down and abandoning module XmlParser (524)
+[2020.03.05-23.41.27:636][920]LogModuleManager: Shutting down and abandoning module Blutility (522)
+[2020.03.05-23.41.27:636][920]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (520)
+[2020.03.05-23.41.27:636][920]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (519)
+[2020.03.05-23.41.27:637][920]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (516)
+[2020.03.05-23.41.27:637][920]LogModuleManager: Shutting down and abandoning module SettingsEditor (514)
+[2020.03.05-23.41.27:637][920]LogModuleManager: Shutting down and abandoning module ProjectLauncher (512)
+[2020.03.05-23.41.27:637][920]LogModuleManager: Shutting down and abandoning module SessionFrontend (510)
+[2020.03.05-23.41.27:638][920]LogModuleManager: Shutting down and abandoning module ProfilerClient (508)
+[2020.03.05-23.41.27:638][920]LogModuleManager: Shutting down and abandoning module DeviceManager (506)
+[2020.03.05-23.41.27:639][920]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (505)
+[2020.03.05-23.41.27:683][920]LogModuleManager: Shutting down and abandoning module AutomationController (502)
+[2020.03.05-23.41.27:684][920]LogModuleManager: Shutting down and abandoning module AutomationWindow (500)
+[2020.03.05-23.41.27:685][920]LogModuleManager: Shutting down and abandoning module Layers (498)
+[2020.03.05-23.41.27:687][920]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (496)
+[2020.03.05-23.41.27:687][920]LogModuleManager: Shutting down and abandoning module DetailCustomizations (494)
+[2020.03.05-23.41.27:688][920]LogModuleManager: Shutting down and abandoning module PackagesDialog (492)
+[2020.03.05-23.41.27:688][920]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (490)
+[2020.03.05-23.41.27:702][920]LogModuleManager: Shutting down and abandoning module Persona (488)
+[2020.03.05-23.41.27:710][920]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (487)
+[2020.03.05-23.41.27:710][920]LogModuleManager: Shutting down and abandoning module AnimGraph (485)
+[2020.03.05-23.41.27:710][920]LogModuleManager: Shutting down and abandoning module Kismet (482)
+[2020.03.05-23.41.27:721][920]LogModuleManager: Shutting down and abandoning module KismetWidgets (481)
+[2020.03.05-23.41.27:722][920]LogModuleManager: Shutting down and abandoning module GraphEditor (478)
+[2020.03.05-23.41.27:723][920]LogModuleManager: Shutting down and abandoning module StructViewer (476)
+[2020.03.05-23.41.27:723][920]LogModuleManager: Shutting down and abandoning module ClassViewer (474)
+[2020.03.05-23.41.27:726][920]LogModuleManager: Shutting down and abandoning module Toolbox (472)
+[2020.03.05-23.41.27:726][920]LogModuleManager: Shutting down and abandoning module DesktopPlatform (471)
+[2020.03.05-23.41.27:726][920]LogModuleManager: Shutting down and abandoning module ModuleUI (468)
+[2020.03.05-23.41.27:727][920]LogModuleManager: Shutting down and abandoning module MovieSceneTools (466)
+[2020.03.05-23.41.27:727][920]LogModuleManager: Shutting down and abandoning module OutputLog (464)
+[2020.03.05-23.41.27:728][920]LogModuleManager: Shutting down and abandoning module GammaUI (462)
+[2020.03.05-23.41.27:728][920]LogModuleManager: Shutting down and abandoning module Documentation (460)
+[2020.03.05-23.41.27:728][920]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
+[2020.03.05-23.41.27:730][920]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
+[2020.03.05-23.41.27:730][920]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
+[2020.03.05-23.41.27:730][920]LogModuleManager: Shutting down and abandoning module MovieScene (452)
+[2020.03.05-23.41.27:730][920]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
+[2020.03.05-23.41.27:730][920]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
+[2020.03.05-23.41.27:730][920]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
+[2020.03.05-23.41.27:730][920]LogModuleManager: Shutting down and abandoning module PortalServices (444)
+[2020.03.05-23.41.27:730][920]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
+[2020.03.05-23.41.27:730][920]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
+[2020.03.05-23.41.27:730][920]LogModuleManager: Shutting down and abandoning module AIModule (438)
+[2020.03.05-23.41.27:731][920]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
+[2020.03.05-23.41.27:731][920]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
+[2020.03.05-23.41.27:731][920]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
+[2020.03.05-23.41.27:731][920]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (430)
+[2020.03.05-23.41.27:734][920]LogModuleManager: Shutting down and abandoning module ProfilerService (428)
+[2020.03.05-23.41.27:826][920]LogModuleManager: Shutting down and abandoning module TaskGraph (426)
+[2020.03.05-23.41.27:834][920]LogModuleManager: Shutting down and abandoning module ScreenshotTools (424)
+[2020.03.05-23.41.27:834][920]LogModuleManager: Shutting down and abandoning module SteamVRController (422)
+[2020.03.05-23.41.27:834][920]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (420)
+[2020.03.05-23.41.27:834][920]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (418)
+[2020.03.05-23.41.27:834][920]LogModuleManager: Shutting down and abandoning module OculusEditor (416)
+[2020.03.05-23.41.27:835][920]LogModuleManager: Shutting down and abandoning module OculusInput (414)
+[2020.03.05-23.41.27:835][920]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (412)
+[2020.03.05-23.41.27:835][920]LogModuleManager: Shutting down and abandoning module EditableMesh (410)
+[2020.03.05-23.41.27:835][920]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (408)
+[2020.03.05-23.41.27:835][920]LogModuleManager: Shutting down and abandoning module CableComponent (406)
+[2020.03.05-23.41.27:835][920]LogModuleManager: Shutting down and abandoning module AudioCapture (404)
+[2020.03.05-23.41.27:835][920]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (402)
+[2020.03.05-23.41.27:835][920]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (400)
+[2020.03.05-23.41.27:835][920]LogModuleManager: Shutting down and abandoning module AppleImageUtils (398)
+[2020.03.05-23.41.27:835][920]LogModuleManager: Shutting down and abandoning module AndroidPermission (396)
+[2020.03.05-23.41.27:835][920]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (394)
+[2020.03.05-23.41.27:835][920]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (392)
+[2020.03.05-23.41.27:836][920]LogModuleManager: Shutting down and abandoning module MediaCompositing (390)
+[2020.03.05-23.41.27:836][920]LogModuleManager: Shutting down and abandoning module ImgMedia (388)
+[2020.03.05-23.41.27:837][920]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (386)
+[2020.03.05-23.41.27:837][920]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (384)
+[2020.03.05-23.41.27:837][920]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (382)
+[2020.03.05-23.41.27:837][920]LogModuleManager: Shutting down and abandoning module HTML5Networking (380)
+[2020.03.05-23.41.27:837][920]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (378)
+[2020.03.05-23.41.27:837][920]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (376)
+[2020.03.05-23.41.27:837][920]LogModuleManager: Shutting down and abandoning module BackChannel (374)
+[2020.03.05-23.41.27:837][920]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (372)
+[2020.03.05-23.41.27:837][920]LogModuleManager: Shutting down and abandoning module AutomationUtils (370)
+[2020.03.05-23.41.27:837][920]LogModuleManager: Shutting down and abandoning module AlembicImporter (368)
+[2020.03.05-23.41.27:838][920]LogModuleManager: Shutting down and abandoning module AlembicLibrary (367)
+[2020.03.05-23.41.27:838][920]LogModuleManager: Shutting down and abandoning module GeometryCache (366)
+[2020.03.05-23.41.27:838][920]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (365)
+[2020.03.05-23.41.27:838][920]LogModuleManager: Shutting down and abandoning module VariantManagerContent (360)
+[2020.03.05-23.41.27:838][920]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (358)
+[2020.03.05-23.41.27:838][920]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (356)
+[2020.03.05-23.41.27:838][920]LogModuleManager: Shutting down and abandoning module PluginBrowser (354)
+[2020.03.05-23.41.27:840][920]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (352)
+[2020.03.05-23.41.27:840][920]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (350)
+[2020.03.05-23.41.27:841][920]LogModuleManager: Shutting down and abandoning module CurveEditorTools (348)
+[2020.03.05-23.41.27:841][920]LogModuleManager: Shutting down and abandoning module CurveEditor (347)
+[2020.03.05-23.41.27:843][920]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (344)
+[2020.03.05-23.41.27:843][920]LogModuleManager: Shutting down and abandoning module CryptoKeys (342)
+[2020.03.05-23.41.27:843][920]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (340)
+[2020.03.05-23.41.27:843][920]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (338)
+[2020.03.05-23.41.27:843][920]LogModuleManager: Shutting down and abandoning module UObjectPlugin (336)
+[2020.03.05-23.41.27:843][920]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (334)
+[2020.03.05-23.41.27:846][920]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (332)
+[2020.03.05-23.41.27:847][920]LogModuleManager: Shutting down and abandoning module GitSourceControl (330)
+[2020.03.05-23.41.27:847][920]LogModuleManager: Shutting down and abandoning module SourceControl (329)
+[2020.03.05-23.41.27:847][920]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (326)
+[2020.03.05-23.41.27:847][920]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (324)
+[2020.03.05-23.41.27:847][920]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (322)
+[2020.03.05-23.41.27:847][920]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (320)
+[2020.03.05-23.41.27:847][920]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (318)
+[2020.03.05-23.41.27:847][920]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (316)
+[2020.03.05-23.41.27:847][920]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (314)
+[2020.03.05-23.41.27:847][920]LogModuleManager: Shutting down and abandoning module Paper2DEditor (312)
+[2020.03.05-23.41.27:850][920]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
+[2020.03.05-23.41.27:850][920]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
+[2020.03.05-23.41.27:850][920]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
+[2020.03.05-23.41.27:850][920]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
+[2020.03.05-23.41.27:850][920]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
+[2020.03.05-23.41.27:850][920]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
+[2020.03.05-23.41.27:961][920]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
+[2020.03.05-23.41.28:080][920]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
+[2020.03.05-23.41.28:080][920]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
+[2020.03.05-23.41.28:080][920]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2020.03.05-23.41.28:080][920]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2020.03.05-23.41.28:080][920]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2020.03.05-23.41.28:080][920]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.03.05-23.41.28:080][920]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
+[2020.03.05-23.41.28:080][920]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
+[2020.03.05-23.41.28:081][920]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2020.03.05-23.41.28:081][920]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2020.03.05-23.41.28:081][920]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2020.03.05-23.41.28:081][920]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2020.03.05-23.41.28:081][920]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2020.03.05-23.41.28:082][920]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2020.03.05-23.41.28:085][920]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2020.03.05-23.41.28:131][920]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2020.03.05-23.41.28:131][920]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2020.03.05-23.41.28:131][920]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2020.03.05-23.41.28:131][920]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2020.03.05-23.41.28:133][920]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2020.03.05-23.41.28:133][920]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
+[2020.03.05-23.41.28:133][920]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2020.03.05-23.41.28:133][920]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2020.03.05-23.41.28:134][920]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2020.03.05-23.41.28:138][920]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2020.03.05-23.41.28:154][920]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
+[2020.03.05-23.41.28:154][920]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2020.03.05-23.41.28:154][920]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2020.03.05-23.41.28:154][920]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2020.03.05-23.41.28:154][920]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2020.03.05-23.41.28:154][920]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2020.03.05-23.41.28:154][920]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2020.03.05-23.41.28:154][920]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2020.03.05-23.41.28:155][920]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2020.03.05-23.41.28:169][920]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2020.03.05-23.41.28:169][920]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2020.03.05-23.41.28:171][920]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2020.03.05-23.41.28:171][920]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2020.03.05-23.41.28:172][920]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2020.03.05-23.41.28:173][920]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2020.03.05-23.41.28:173][920]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2020.03.05-23.41.28:173][920]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2020.03.05-23.41.28:178][920]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2020.03.05-23.41.28:178][920]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2020.03.05-23.41.28:181][920]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2020.03.05-23.41.28:181][920]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2020.03.05-23.41.28:181][920]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.03.05-23.41.28:183][920]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2020.03.05-23.41.28:183][920]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2020.03.05-23.41.28:183][920]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2020.03.05-23.41.28:183][920]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2020.03.05-23.41.28:183][920]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2020.03.05-23.41.28:183][920]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2020.03.05-23.41.28:183][920]LogModuleManager: Shutting down and abandoning module Core (186)
+[2020.03.05-23.41.28:183][920]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2020.03.05-23.41.28:183][920]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2020.03.05-23.41.28:183][920]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2020.03.05-23.41.28:184][920]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2020.03.05-23.41.28:184][920]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
+[2020.03.05-23.41.28:184][920]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2020.03.05-23.41.28:185][920]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2020.03.05-23.41.28:186][920]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2020.03.05-23.41.28:186][920]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
+[2020.03.05-23.41.28:186][920]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2020.03.05-23.41.28:235][920]LogDerivedDataCache: Shutdown
+[2020.03.05-23.41.28:235][920]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2020.03.05-23.41.28:235][920]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2020.03.05-23.41.28:236][920]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2020.03.05-23.41.28:236][920]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2020.03.05-23.41.28:236][920]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2020.03.05-23.41.28:237][920]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2020.03.05-23.41.28:237][920]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2020.03.05-23.41.28:238][920]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2020.03.05-23.41.28:238][920]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2020.03.05-23.41.28:238][920]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2020.03.05-23.41.28:238][920]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2020.03.05-23.41.28:239][920]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2020.03.05-23.41.28:239][920]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2020.03.05-23.41.28:239][920]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2020.03.05-23.41.28:239][920]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2020.03.05-23.41.28:239][920]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2020.03.05-23.41.28:239][920]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2020.03.05-23.41.28:239][920]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2020.03.05-23.41.28:247][920]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2020.03.05-23.41.28:247][920]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2020.03.05-23.41.28:248][920]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2020.03.05-23.41.28:278][920]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2020.03.05-23.41.28:279][920]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2020.03.05-23.41.28:283][920]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2020.03.05-23.41.28:283][920]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2020.03.05-23.41.28:286][920]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2020.03.05-23.41.28:286][920]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2020.03.05-23.41.28:327][920]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2020.03.05-23.41.28:327][920]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2020.03.05-23.41.28:327][920]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2020.03.05-23.41.28:327][920]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2020.03.05-23.41.28:327][920]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2020.03.05-23.41.28:327][920]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2020.03.05-23.41.28:327][920]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2020.03.05-23.41.28:327][920]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2020.03.05-23.41.28:327][920]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2020.03.05-23.41.28:327][920]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2020.03.05-23.41.28:327][920]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2020.03.05-23.41.28:327][920]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2020.03.05-23.41.28:328][920]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2020.03.05-23.41.28:328][920]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2020.03.05-23.41.28:328][920]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2020.03.05-23.41.28:329][920]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2020.03.05-23.41.28:330][920]LogHMD: Freeing OpenVRDLLHandle.
+[2020.03.05-23.41.28:330][920]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2020.03.05-23.41.28:330][920]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2020.03.05-23.41.28:330][920]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2020.03.05-23.41.28:330][920]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2020.03.05-23.41.28:331][920]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2020.03.05-23.41.28:332][920]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2020.03.05-23.41.28:333][920]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2020.03.05-23.41.28:360][920]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2020.03.05-23.41.28:360][920]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.03.05-23.41.28:360][920]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5FE92145-4A32-CC87-903E-138ECA13FAAB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=23752bf9448cfec047453f967ae07a94%7Ceac204a4c10a466596cdfb6d87fa3ace%7C2c2f346f-1dd1-491f-8bd7-97f478b49c1e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.03.05-23.41.28:393][920]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2020.03.05-23.41.28:395][920]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2020.03.05-23.41.28:397][920]LogModuleManager: Shutting down and abandoning module Media (51)
+[2020.03.05-23.41.28:398][920]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2020.03.05-23.41.28:399][920]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2020.03.05-23.41.28:405][920]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2020.03.05-23.41.28:405][920]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2020.03.05-23.41.28:406][920]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.03.05-23.41.28:406][920]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.03.05-23.41.28:407][920]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.03.05-23.41.28:407][920]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.03.05-23.41.28:408][920]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.03.05-23.41.28:409][920]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.03.05-23.41.28:409][920]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.03.05-23.41.28:409][920]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.03.05-23.41.28:415][920]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.03.05-23.41.28:416][920]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.03.05-23.41.28:416][920]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.03.05-23.41.28:416][920]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.03.05-23.41.28:416][920]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.03.05-23.41.28:416][920]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.03.05-23.41.28:416][920]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.03.05-23.41.28:417][920]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.03.05-23.41.28:417][920]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.03.05-23.41.28:417][920]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.03.05-23.41.28:417][920]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.03.05-23.41.28:417][920]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.03.05-23.41.28:424][920]LogD3D11RHI: Shutdown
+[2020.03.05-23.41.28:425][920]LogD3D11RHI: CleanupD3DDevice
+[2020.03.05-23.41.28:428][920]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.05-23.41.28:428][920]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.05-23.41.28:428][920]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.05-23.41.28:571][920]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.03.05-23.41.28:577][920]LogExit: Exiting.
+[2020.03.05-23.41.28:601][920]Log file closed, 03/05/20 15:41:28

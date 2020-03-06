@@ -9,6 +9,8 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Animation/AnimInstance.h"
 #include "MainPlayerController.h"
+#include "CountessSaveGame.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AMainCharacter::AMainCharacter()
@@ -143,4 +145,30 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 
+}
+
+void AMainCharacter::SaveGame()
+{
+	UCountessSaveGame* SaveGameInstance = Cast<UCountessSaveGame>(UGameplayStatics::CreateSaveGameObject(UCountessSaveGame::StaticClass()));
+
+	SaveGameInstance->Health = Health;
+	SaveGameInstance->MaxHealth = MaxHealth;
+
+	SaveGameInstance->WorldLocation = GetActorLocation();
+	SaveGameInstance->WorldRotation = GetActorRotation();
+
+	UGameplayStatics::SaveGameToSlot(SaveGameInstance, SaveGameInstance->PlayerName, SaveGameInstance->UserSlot);
+}
+
+void AMainCharacter::LoadGame()
+{
+	UCountessSaveGame* LoadGameInstance = Cast<UCountessSaveGame>(UGameplayStatics::CreateSaveGameObject(UCountessSaveGame::StaticClass()));
+
+	LoadGameInstance = Cast<UCountessSaveGame>(UGameplayStatics::LoadGameFromSlot(LoadGameInstance->PlayerName, LoadGameInstance->UserSlot));
+
+	Health = LoadGameInstance->Health;
+	MaxHealth = LoadGameInstance->MaxHealth;
+
+	SetActorLocation(LoadGameInstance->WorldLocation);
+	SetActorRotation(LoadGameInstance->WorldRotation);
 }

@@ -13,8 +13,44 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FIRSTGAME_MainCharacter_generated_h
 
-#define FirstGame_Source_FirstGame_MainCharacter_h_12_RPC_WRAPPERS
-#define FirstGame_Source_FirstGame_MainCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FirstGame_Source_FirstGame_MainCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execLoadGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LoadGame(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSaveGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SaveGame(); \
+		P_NATIVE_END; \
+	}
+
+
+#define FirstGame_Source_FirstGame_MainCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execLoadGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LoadGame(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSaveGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SaveGame(); \
+		P_NATIVE_END; \
+	}
+
+
 #define FirstGame_Source_FirstGame_MainCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMainCharacter(); \

@@ -471,7 +471,9 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
+    <ClCompile Include="..\..\Source\FirstGame\CountessSaveGame.cpp" />
     <ClCompile Include="..\..\Source\FirstGame\FirstActor.cpp" />
+    <ClInclude Include="..\..\Source\FirstGame\CountessSaveGame.h" />
     <ClInclude Include="..\..\Source\FirstGame\FirstActor.h" />
     <None Include="..\..\Source\FirstGame\FirstGame.Build.cs" />
     <ClCompile Include="..\..\Source\FirstGame\FirstGame.cpp" />
