@@ -12,6 +12,8 @@
 #include "CountessSaveGame.h"
 #include "Kismet/GameplayStatics.h"
 
+#include "FirstGame.h"
+
 // Sets default values
 AMainCharacter::AMainCharacter()
 {
@@ -64,6 +66,15 @@ void AMainCharacter::BeginPlay()
 	Super::BeginPlay();
 
 	MainPlayerController = Cast<AMainPlayerController>(GetController());
+
+	UE_LOG(CountessLog, VeryVerbose, TEXT("CountessLog VeryVerbose"));
+	UE_LOG(CountessLog, Verbose, TEXT("CountessLog Verbose"));
+	UE_LOG(CountessLog, Warning, TEXT("CountessLog Warning"));
+	UE_LOG(CountessLog, Display, TEXT("CountessLog Display"));
+	UE_LOG(CountessLog, Log, TEXT("CountessLog Log"));
+	UE_LOG(CountessLog, Error, TEXT("CountessLog Error"));
+	//UE_LOG(CountessLog, Fatal, TEXT("CountessLog Fatal - This will crash the game!"));
+
 }
 
 void AMainCharacter::MoveForward(float Value)

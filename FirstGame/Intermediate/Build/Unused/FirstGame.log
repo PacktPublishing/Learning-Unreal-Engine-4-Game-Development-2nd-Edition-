@@ -1,17 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-).
   Parsing headers for FirstGameEditor
     Running UnrealHeaderTool "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\FirstGame.uproject" "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\FirstGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FirstGameEditor in 4.9745609 seconds
-  Deleted hot-reload file: D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Binaries\Win64\UE4Editor-FirstGame-0001.dll
-  Deleted hot-reload file: D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Binaries\Win64\UE4Editor-FirstGame-0003.dll
-  Deleted hot-reload file: D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0001.lib
-  Deleted hot-reload file: D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0003.lib
+  Reflection code generated for FirstGameEditor in 5.2442013 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 4 processes...
-    [1/3] UE4Editor-FirstGame.lib
+  Building 5 actions with 4 processes...
+    [1/5] FirstGame.cpp
+    [2/5] MainCharacter.cpp
+    [3/5] UE4Editor-FirstGame.lib
        Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame.exp
-    [2/3] UE4Editor-FirstGame.dll
+    [4/5] UE4Editor-FirstGame.dll
        Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame.suppressed.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame.suppressed.exp
-    [3/3] FirstGameEditor.target
-  Total time in Parallel executor: 1.46 seconds
-  Total execution time: 7.10 seconds
+    [5/5] FirstGameEditor.target
+  Total time in Parallel executor: 3.31 seconds
+  Total execution time: 9.45 seconds

@@ -3,3 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+//Countess Log Type
+DECLARE_LOG_CATEGORY_EXTERN(CountessLog, VeryVerbose, All);
