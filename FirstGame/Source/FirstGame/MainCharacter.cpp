@@ -75,6 +75,16 @@ void AMainCharacter::BeginPlay()
 	UE_LOG(CountessLog, Error, TEXT("CountessLog Error"));
 	//UE_LOG(CountessLog, Fatal, TEXT("CountessLog Fatal - This will crash the game!"));
 
+	print("Use of print macro");
+
+	print_k(2, "You will only see one of these print_k messages!");
+	print_k(2, "You will only see one of these print_k messages!");
+	print_k(2, "You will only see one of these print_k messages!");
+	print_k(2, "You will only see one of these print_k messages!");
+
+	printf("Formatting the string with Actor Name: %s", *GetName());
+
+
 }
 
 void AMainCharacter::MoveForward(float Value)
@@ -135,6 +145,8 @@ void AMainCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	FString Print = FString::Printf(TEXT("DeltaTime: %f"), DeltaTime);
+	printf_k(1, "DeltaTime: %f", DeltaTime);
 }
 
 // Called to bind functionality to input
