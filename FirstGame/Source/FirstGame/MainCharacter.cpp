@@ -169,7 +169,7 @@ void AMainCharacter::Tick(float DeltaTime)
 	}
 
 	TArray<FHitResult> HitResults;
-	GetWorld()->LineTraceMultiByChannel(HitResults, Start, End, ECollisionChannel::ECC_Visibility);
+	//GetWorld()->LineTraceMultiByChannel(HitResults, Start, End, ECollisionChannel::ECC_Visibility);
 	for (int32 i = 0; i < HitResults.Num(); i++)
 	{
 		if (HitResults[i].bBlockingHit)
@@ -181,6 +181,17 @@ void AMainCharacter::Tick(float DeltaTime)
 		{
 			printf_k(i, "%d Failed hit!", i);
 		}
+	}
+	TArray<TEnumAsByte<EObjectTypeQuery>> ObjectTypes;
+	//ObjectTypes.Add(EObjectTypeQuery::ObjectTypeQuery1);
+	ObjectTypes.Add(EObjectTypeQuery::ObjectTypeQuery2);
+	TArray<AActor*> ActorsToIgnore;
+	ActorsToIgnore.Add(this);
+	FHitResult BoxTraceResult;
+	UKismetSystemLibrary::BoxTraceSingleForObjects(GetWorld(), Start, End, FVector(32.f, 32.f, 32.f), FRotator(), ObjectTypes, true, ActorsToIgnore, EDrawDebugTrace::ForOneFrame, BoxTraceResult, true, FColor::Red, FColor::Blue);
+	if (BoxTraceResult.bBlockingHit)
+	{
+		print_k(1, "Blocking Hit!");
 	}
 }
 
