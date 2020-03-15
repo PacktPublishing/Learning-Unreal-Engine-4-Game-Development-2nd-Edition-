@@ -12,6 +12,8 @@
 #include "CountessSaveGame.h"
 #include "Kismet/GameplayStatics.h"
 
+#include "DrawDebugHelpers.h"
+
 #include "FirstGame.h"
 
 // Sets default values
@@ -83,8 +85,6 @@ void AMainCharacter::BeginPlay()
 	print_k(2, "You will only see one of these print_k messages!");
 
 	printf("Formatting the string with Actor Name: %s", *GetName());
-
-
 }
 
 void AMainCharacter::MoveForward(float Value)
@@ -147,6 +147,41 @@ void AMainCharacter::Tick(float DeltaTime)
 
 	FString Print = FString::Printf(TEXT("DeltaTime: %f"), DeltaTime);
 	printf_k(1, "DeltaTime: %f", DeltaTime);
+
+	//DrawDebugPoint(GetWorld(), GetActorLocation() + FVector(0.f, 0.f, 50.f), 5.f, FColor::Blue, false, 3.f);
+
+	//DrawDebugLine(GetWorld(), FVector(0.f, 0.f, 400.f), GetActorLocation(), FColor::Red, false, -1.f);
+
+	FHitResult HitResult;
+	FVector Start = GetActorLocation() + FVector(0.f, 0.f, 75.f);
+	FVector End = Start + GetActorForwardVector() * 500.f;
+	FCollisionQueryParams CollisionQueryParams;
+	CollisionQueryParams.AddIgnoredActor(this);
+	FComponentQueryParams ComponentQueryParams;
+	FCollisionResponseParams CollisionResponseParams;
+	
+	//GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, CollisionQueryParams);
+
+
+	if (HitResult.bBlockingHit)
+	{
+		DrawDebugSphere(GetWorld(), HitResult.Location, 15.f, 12, FColor::Red, false, 5.f);
+	}
+
+	TArray<FHitResult> HitResults;
+	GetWorld()->LineTraceMultiByChannel(HitResults, Start, End, ECollisionChannel::ECC_Visibility);
+	for (int32 i = 0; i < HitResults.Num(); i++)
+	{
+		if (HitResults[i].bBlockingHit)
+		{
+			FString ActorName = HitResults[i].Actor->GetName();
+			printf_k(i, "%d Actor Name: %s", i, *ActorName);
+		}
+		else
+		{
+			printf_k(i, "%d Failed hit!", i);
+		}
+	}
 }
 
 // Called to bind functionality to input
