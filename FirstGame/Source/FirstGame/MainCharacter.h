@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "MainCharacter.generated.h"
 
+DECLARE_DELEGATE(FRotateDelegate);
+DECLARE_DYNAMIC_DELEGATE_OneParam(FDynamicRotateDelegate, float, RotationSpeed);
+
 UCLASS()
 class FIRSTGAME_API AMainCharacter : public ACharacter
 {
@@ -27,6 +30,9 @@ public:
 	void SetHealth(float Amount);
 	FORCEINLINE float GetMaxHealth() { return MaxHealth; }
 	FORCEINLINE void SetMaxHealth(float Amount) { MaxHealth = Amount; }
+
+	FRotateDelegate RotateDelegate;
+	FDynamicRotateDelegate DynamicRotateDelegate;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -76,4 +82,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void LoadGame();
 
+	UFUNCTION(BlueprintCallable)
+	void ToggleAllRotators();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float RotatingActorRotate;
+
+	UFUNCTION(BlueprintCallable)
+	void SetRotatingActorRates(float Rate);
 };

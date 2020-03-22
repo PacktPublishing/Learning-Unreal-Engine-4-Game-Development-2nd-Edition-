@@ -1,14 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-).
   Parsing headers for FirstGameEditor
     Running UnrealHeaderTool "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\FirstGame.uproject" "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\FirstGameEditor\Development\FirstGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FirstGameEditor in 5.546115 seconds
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 4 processes...
-    [1/4] MainCharacter.cpp
-    [2/4] UE4Editor-FirstGame-0069.lib
-       Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0069.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0069.exp
-    [3/4] UE4Editor-FirstGame-0069.dll
-       Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0069.suppressed.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0069.suppressed.exp
-    [4/4] FirstGameEditor.target
-  Total time in Parallel executor: 3.15 seconds
-  Total execution time: 9.50 seconds
+  Reflection code generated for FirstGameEditor in 5.0826957 seconds
+  Target is up to date
+  Total execution time: 5.72 seconds

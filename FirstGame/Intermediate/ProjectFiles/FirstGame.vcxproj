@@ -463,6 +463,8 @@
     <NMakeOutput>..\..\Binaries\HTML5\FirstGame-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\FirstGame\RotatingActor.cpp" />
+    <ClInclude Include="..\..\Source\FirstGame\RotatingActor.h" />
     <None Include="..\..\FirstGame.uproject" />
     <None Include="..\..\Source\FirstGame.Target.cs" />
     <None Include="..\..\Source\FirstGameEditor.Target.cs" />

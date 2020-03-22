@@ -13,23 +13,60 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 // Cross Module References
+	FIRSTGAME_API UFunction* Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature();
+	UPackage* Z_Construct_UPackage__Script_FirstGame();
 	FIRSTGAME_API UClass* Z_Construct_UClass_AMainCharacter_NoRegister();
 	FIRSTGAME_API UClass* Z_Construct_UClass_AMainCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
-	UPackage* Z_Construct_UPackage__Script_FirstGame();
 	FIRSTGAME_API UFunction* Z_Construct_UFunction_AMainCharacter_LoadGame();
 	FIRSTGAME_API UFunction* Z_Construct_UFunction_AMainCharacter_SaveGame();
+	FIRSTGAME_API UFunction* Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates();
+	FIRSTGAME_API UFunction* Z_Construct_UFunction_AMainCharacter_ToggleAllRotators();
 	FIRSTGAME_API UClass* Z_Construct_UClass_AMainPlayerController_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics
+	{
+		struct _Script_FirstGame_eventDynamicRotateDelegate_Parms
+		{
+			float RotationSpeed;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RotationSpeed;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::NewProp_RotationSpeed = { "RotationSpeed", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_FirstGame_eventDynamicRotateDelegate_Parms, RotationSpeed), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::NewProp_RotationSpeed,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_FirstGame, nullptr, "DynamicRotateDelegate__DelegateSignature", nullptr, nullptr, sizeof(_Script_FirstGame_eventDynamicRotateDelegate_Parms), Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00120000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	void AMainCharacter::StaticRegisterNativesAMainCharacter()
 	{
 		UClass* Class = AMainCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "LoadGame", &AMainCharacter::execLoadGame },
 			{ "SaveGame", &AMainCharacter::execSaveGame },
+			{ "SetRotatingActorRates", &AMainCharacter::execSetRotatingActorRates },
+			{ "ToggleAllRotators", &AMainCharacter::execToggleAllRotators },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -77,6 +114,60 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates_Statics
+	{
+		struct MainCharacter_eventSetRotatingActorRates_Parms
+		{
+			float Rate;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Rate;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates_Statics::NewProp_Rate = { "Rate", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainCharacter_eventSetRotatingActorRates_Parms, Rate), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates_Statics::NewProp_Rate,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "SetRotatingActorRates", nullptr, nullptr, sizeof(MainCharacter_eventSetRotatingActorRates_Parms), Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_ToggleAllRotators_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_ToggleAllRotators_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_ToggleAllRotators_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "ToggleAllRotators", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_ToggleAllRotators_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_ToggleAllRotators_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_ToggleAllRotators()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_ToggleAllRotators_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AMainCharacter_NoRegister()
 	{
 		return AMainCharacter::StaticClass();
@@ -88,6 +179,10 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RotatingActorRotate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RotatingActorRotate;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MainPlayerController_MetaData[];
 #endif
@@ -128,6 +223,8 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMainCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AMainCharacter_LoadGame, "LoadGame" }, // 1051136167
 		{ &Z_Construct_UFunction_AMainCharacter_SaveGame, "SaveGame" }, // 684448742
+		{ &Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates, "SetRotatingActorRates" }, // 235916296
+		{ &Z_Construct_UFunction_AMainCharacter_ToggleAllRotators, "ToggleAllRotators" }, // 3103580406
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::Class_MetaDataParams[] = {
@@ -136,6 +233,13 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		{ "ModuleRelativePath", "MainCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_RotatingActorRotate_MetaData[] = {
+		{ "Category", "MainCharacter" },
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_RotatingActorRotate = { "RotatingActorRotate", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, RotatingActorRotate), METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_RotatingActorRotate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_RotatingActorRotate_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_MainPlayerController_MetaData[] = {
 		{ "Category", "Controller" },
@@ -202,6 +306,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_CameraBoom_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMainCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_RotatingActorRotate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_MainPlayerController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_MaxHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_Health,
@@ -237,7 +342,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainCharacter, 3961686484);
+	IMPLEMENT_CLASS(AMainCharacter, 1701668637);
 	template<> FIRSTGAME_API UClass* StaticClass<AMainCharacter>()
 	{
 		return AMainCharacter::StaticClass();

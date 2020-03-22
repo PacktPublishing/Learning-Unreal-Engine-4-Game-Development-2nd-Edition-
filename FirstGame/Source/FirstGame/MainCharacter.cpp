@@ -11,8 +11,8 @@
 #include "MainPlayerController.h"
 #include "CountessSaveGame.h"
 #include "Kismet/GameplayStatics.h"
-
 #include "DrawDebugHelpers.h"
+#include "RotatingActor.h"
 
 #include "FirstGame.h"
 
@@ -44,6 +44,8 @@ AMainCharacter::AMainCharacter()
 
 	Health = 85.f;
 	MaxHealth = 100.f;
+
+	RotatingActorRotate = 180.f;
 }
 
 void AMainCharacter::SetHealth(float Amount)
@@ -69,6 +71,7 @@ void AMainCharacter::BeginPlay()
 
 	MainPlayerController = Cast<AMainPlayerController>(GetController());
 
+	/**
 	UE_LOG(CountessLog, VeryVerbose, TEXT("CountessLog VeryVerbose"));
 	UE_LOG(CountessLog, Verbose, TEXT("CountessLog Verbose"));
 	UE_LOG(CountessLog, Warning, TEXT("CountessLog Warning"));
@@ -85,6 +88,7 @@ void AMainCharacter::BeginPlay()
 	print_k(2, "You will only see one of these print_k messages!");
 
 	printf("Formatting the string with Actor Name: %s", *GetName());
+	*/
 }
 
 void AMainCharacter::MoveForward(float Value)
@@ -145,11 +149,14 @@ void AMainCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+
+
+	// Logging and Tracing Experiments
+	/**
 	FString Print = FString::Printf(TEXT("DeltaTime: %f"), DeltaTime);
 	printf_k(1, "DeltaTime: %f", DeltaTime);
 
 	//DrawDebugPoint(GetWorld(), GetActorLocation() + FVector(0.f, 0.f, 50.f), 5.f, FColor::Blue, false, 3.f);
-
 	//DrawDebugLine(GetWorld(), FVector(0.f, 0.f, 400.f), GetActorLocation(), FColor::Red, false, -1.f);
 
 	FHitResult HitResult;
@@ -193,6 +200,7 @@ void AMainCharacter::Tick(float DeltaTime)
 	{
 		print_k(1, "Blocking Hit!");
 	}
+	*/
 }
 
 // Called to bind functionality to input
@@ -240,4 +248,27 @@ void AMainCharacter::LoadGame()
 
 	SetActorLocation(LoadGameInstance->WorldLocation);
 	SetActorRotation(LoadGameInstance->WorldRotation);
+}
+
+void AMainCharacter::ToggleAllRotators()
+{
+	/**
+	TSubclassOf<AActor> WorldClassObject = ARotatingActor::StaticClass();
+	TArray<AActor*> ActorsOfClass;
+	UGameplayStatics::GetAllActorsOfClass(this, WorldClassObject, ActorsOfClass);
+	for (AActor* Actor : ActorsOfClass)
+	{
+		ARotatingActor* RotatingActor = Cast<ARotatingActor>(Actor);
+		if (RotatingActor)
+		{
+			RotatingActor->ToggleRotate();
+		}
+	}
+	*/
+	RotateDelegate.ExecuteIfBound();
+}
+
+void AMainCharacter::SetRotatingActorRates(float Rate)
+{
+	DynamicRotateDelegate.Execute(Rate);
 }
