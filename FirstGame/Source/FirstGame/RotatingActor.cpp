@@ -50,7 +50,9 @@ void ARotatingActor::ToggleRotate()
 	bRotate = !bRotate;
 }
 
-void ARotatingActor::SetRotationRate(float Rate)
+float ARotatingActor::SetRotationRate(float Rate)
 {
+	float Temp = RotationRate;
 	RotationRate = Rate;
+	return Temp;
 }

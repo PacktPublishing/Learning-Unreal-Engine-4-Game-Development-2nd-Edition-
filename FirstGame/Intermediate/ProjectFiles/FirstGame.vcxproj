@@ -464,7 +464,11 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FirstGame\RotatingActor.cpp" />
+    <ClCompile Include="..\..\Source\FirstGame\SwitchInterface.cpp" />
+    <ClCompile Include="..\..\Source\FirstGame\SwitchTarget.cpp" />
     <ClInclude Include="..\..\Source\FirstGame\RotatingActor.h" />
+    <ClInclude Include="..\..\Source\FirstGame\SwitchInterface.h" />
+    <ClInclude Include="..\..\Source\FirstGame\SwitchTarget.h" />
     <None Include="..\..\FirstGame.uproject" />
     <None Include="..\..\Source\FirstGame.Target.cs" />
     <None Include="..\..\Source\FirstGameEditor.Target.cs" />

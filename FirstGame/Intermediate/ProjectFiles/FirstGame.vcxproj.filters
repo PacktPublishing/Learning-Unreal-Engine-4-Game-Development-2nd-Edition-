@@ -103,6 +103,12 @@
     <ClInclude Include="..\..\Source\FirstGame\RotatingActor.h">
       <Filter>Source\FirstGame</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FirstGame\SwitchInterface.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstGame\SwitchTarget.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FirstGame\Item.cpp">
@@ -121,6 +127,12 @@
       <Filter>Source\FirstGame</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\FirstGame\RotatingActor.cpp">
+      <Filter>Source\FirstGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstGame\SwitchInterface.cpp">
+      <Filter>Source\FirstGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstGame\SwitchTarget.cpp">
       <Filter>Source\FirstGame</Filter>
     </ClCompile>
   </ItemGroup>

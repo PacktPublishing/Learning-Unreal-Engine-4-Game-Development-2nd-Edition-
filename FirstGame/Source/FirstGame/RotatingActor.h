@@ -38,5 +38,5 @@ public:
 	void ToggleRotate();
 
 	UFUNCTION()
-	void SetRotationRate(float Rate);
+	float SetRotationRate(float Rate);
 };

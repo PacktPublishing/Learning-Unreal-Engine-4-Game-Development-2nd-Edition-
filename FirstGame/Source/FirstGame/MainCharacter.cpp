@@ -46,6 +46,7 @@ AMainCharacter::AMainCharacter()
 	MaxHealth = 100.f;
 
 	RotatingActorRotate = 180.f;
+	bShouldRotatorsPlaySound = true;
 }
 
 void AMainCharacter::SetHealth(float Amount)
@@ -270,5 +271,11 @@ void AMainCharacter::ToggleAllRotators()
 
 void AMainCharacter::SetRotatingActorRates(float Rate)
 {
-	DynamicRotateDelegate.Execute(Rate);
+	float PreviousRotationRate = DynamicRotateDelegate.Execute(Rate);
+	printf("Previous Rotation Rate: %f", PreviousRotationRate);
+}
+
+void AMainCharacter::PlaySoundAtRotatingActors(bool PlaySound)
+{
+	DynamicMulticastRotateDelegate.Broadcast(PlaySound);
 }

@@ -7,7 +7,8 @@
 #include "MainCharacter.generated.h"
 
 DECLARE_DELEGATE(FRotateDelegate);
-DECLARE_DYNAMIC_DELEGATE_OneParam(FDynamicRotateDelegate, float, RotationSpeed);
+DECLARE_DYNAMIC_DELEGATE_RetVal_OneParam(float, FDynamicRotateDelegate, float, RotationSpeed);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FDynamicMulticastRotateDelegate, bool, bPlaySound);
 
 UCLASS()
 class FIRSTGAME_API AMainCharacter : public ACharacter
@@ -32,7 +33,16 @@ public:
 	FORCEINLINE void SetMaxHealth(float Amount) { MaxHealth = Amount; }
 
 	FRotateDelegate RotateDelegate;
+
+	UPROPERTY()
 	FDynamicRotateDelegate DynamicRotateDelegate;
+
+	UPROPERTY(BlueprintAssignable)
+	FDynamicMulticastRotateDelegate DynamicMulticastRotateDelegate;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Delegates")
+	bool bShouldRotatorsPlaySound;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -90,4 +100,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void SetRotatingActorRates(float Rate);
+
+	UFUNCTION(BlueprintCallable)
+	void PlaySoundAtRotatingActors(bool PlaySound);
 };

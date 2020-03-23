@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_GET_PROPERTY(UFloatProperty,Z_Param_Rate); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetRotationRate(Z_Param_Rate); \
+		*(float*)Z_Param__Result=P_THIS->SetRotationRate(Z_Param_Rate); \
 		P_NATIVE_END; \
 	}
 
@@ -32,7 +32,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_GET_PROPERTY(UFloatProperty,Z_Param_Rate); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetRotationRate(Z_Param_Rate); \
+		*(float*)Z_Param__Result=P_THIS->SetRotationRate(Z_Param_Rate); \
 		P_NATIVE_END; \
 	}
 

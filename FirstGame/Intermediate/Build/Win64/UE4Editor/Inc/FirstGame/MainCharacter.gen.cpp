@@ -13,12 +13,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 // Cross Module References
-	FIRSTGAME_API UFunction* Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature();
+	FIRSTGAME_API UFunction* Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_FirstGame();
+	FIRSTGAME_API UFunction* Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature();
 	FIRSTGAME_API UClass* Z_Construct_UClass_AMainCharacter_NoRegister();
 	FIRSTGAME_API UClass* Z_Construct_UClass_AMainCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	FIRSTGAME_API UFunction* Z_Construct_UFunction_AMainCharacter_LoadGame();
+	FIRSTGAME_API UFunction* Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors();
 	FIRSTGAME_API UFunction* Z_Construct_UFunction_AMainCharacter_SaveGame();
 	FIRSTGAME_API UFunction* Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates();
 	FIRSTGAME_API UFunction* Z_Construct_UFunction_AMainCharacter_ToggleAllRotators();
@@ -27,12 +29,51 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics
+	{
+		struct _Script_FirstGame_eventDynamicMulticastRotateDelegate_Parms
+		{
+			bool bPlaySound;
+		};
+		static void NewProp_bPlaySound_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bPlaySound;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics::NewProp_bPlaySound_SetBit(void* Obj)
+	{
+		((_Script_FirstGame_eventDynamicMulticastRotateDelegate_Parms*)Obj)->bPlaySound = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics::NewProp_bPlaySound = { "bPlaySound", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(_Script_FirstGame_eventDynamicMulticastRotateDelegate_Parms), &Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics::NewProp_bPlaySound_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics::NewProp_bPlaySound,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_FirstGame, nullptr, "DynamicMulticastRotateDelegate__DelegateSignature", nullptr, nullptr, sizeof(_Script_FirstGame_eventDynamicMulticastRotateDelegate_Parms), Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics
 	{
 		struct _Script_FirstGame_eventDynamicRotateDelegate_Parms
 		{
 			float RotationSpeed;
+			float ReturnValue;
 		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RotationSpeed;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
@@ -40,8 +81,10 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_FirstGame_eventDynamicRotateDelegate_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::NewProp_RotationSpeed = { "RotationSpeed", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_FirstGame_eventDynamicRotateDelegate_Parms, RotationSpeed), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature_Statics::NewProp_RotationSpeed,
 	};
 #if WITH_METADATA
@@ -64,6 +107,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		UClass* Class = AMainCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "LoadGame", &AMainCharacter::execLoadGame },
+			{ "PlaySoundAtRotatingActors", &AMainCharacter::execPlaySoundAtRotatingActors },
 			{ "SaveGame", &AMainCharacter::execSaveGame },
 			{ "SetRotatingActorRates", &AMainCharacter::execSetRotatingActorRates },
 			{ "ToggleAllRotators", &AMainCharacter::execToggleAllRotators },
@@ -89,6 +133,43 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics
+	{
+		struct MainCharacter_eventPlaySoundAtRotatingActors_Parms
+		{
+			bool PlaySound;
+		};
+		static void NewProp_PlaySound_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_PlaySound;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics::NewProp_PlaySound_SetBit(void* Obj)
+	{
+		((MainCharacter_eventPlaySoundAtRotatingActors_Parms*)Obj)->PlaySound = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics::NewProp_PlaySound = { "PlaySound", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(MainCharacter_eventPlaySoundAtRotatingActors_Parms), &Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics::NewProp_PlaySound_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics::NewProp_PlaySound,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "PlaySoundAtRotatingActors", nullptr, nullptr, sizeof(MainCharacter_eventPlaySoundAtRotatingActors_Parms), Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -205,6 +286,19 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		static void NewProp_bAttacking_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bAttacking;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bShouldRotatorsPlaySound_MetaData[];
+#endif
+		static void NewProp_bShouldRotatorsPlaySound_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bShouldRotatorsPlaySound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DynamicMulticastRotateDelegate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_DynamicMulticastRotateDelegate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DynamicRotateDelegate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FDelegatePropertyParams NewProp_DynamicRotateDelegate;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
@@ -222,6 +316,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMainCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AMainCharacter_LoadGame, "LoadGame" }, // 1051136167
+		{ &Z_Construct_UFunction_AMainCharacter_PlaySoundAtRotatingActors, "PlaySoundAtRotatingActors" }, // 1519941139
 		{ &Z_Construct_UFunction_AMainCharacter_SaveGame, "SaveGame" }, // 684448742
 		{ &Z_Construct_UFunction_AMainCharacter_SetRotatingActorRates, "SetRotatingActorRates" }, // 235916296
 		{ &Z_Construct_UFunction_AMainCharacter_ToggleAllRotators, "ToggleAllRotators" }, // 3103580406
@@ -284,6 +379,29 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_bAttacking = { "bAttacking", nullptr, (EPropertyFlags)0x0020080000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMainCharacter), &Z_Construct_UClass_AMainCharacter_Statics::NewProp_bAttacking_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_bAttacking_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_bAttacking_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_bShouldRotatorsPlaySound_MetaData[] = {
+		{ "Category", "Delegates" },
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMainCharacter_Statics::NewProp_bShouldRotatorsPlaySound_SetBit(void* Obj)
+	{
+		((AMainCharacter*)Obj)->bShouldRotatorsPlaySound = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_bShouldRotatorsPlaySound = { "bShouldRotatorsPlaySound", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMainCharacter), &Z_Construct_UClass_AMainCharacter_Statics::NewProp_bShouldRotatorsPlaySound_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_bShouldRotatorsPlaySound_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_bShouldRotatorsPlaySound_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_DynamicMulticastRotateDelegate_MetaData[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_DynamicMulticastRotateDelegate = { "DynamicMulticastRotateDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, DynamicMulticastRotateDelegate), Z_Construct_UDelegateFunction_FirstGame_DynamicMulticastRotateDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_DynamicMulticastRotateDelegate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_DynamicMulticastRotateDelegate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_DynamicRotateDelegate_MetaData[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FDelegatePropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_DynamicRotateDelegate = { "DynamicRotateDelegate", nullptr, (EPropertyFlags)0x0010000000080000, UE4CodeGen_Private::EPropertyGenFlags::Delegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, DynamicRotateDelegate), Z_Construct_UDelegateFunction_FirstGame_DynamicRotateDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_DynamicRotateDelegate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_DynamicRotateDelegate_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_FollowCamera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
@@ -312,6 +430,9 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_Health,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_CountessAttackMontage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bAttacking,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bShouldRotatorsPlaySound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_DynamicMulticastRotateDelegate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_DynamicRotateDelegate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_FollowCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_CameraBoom,
 	};
@@ -342,7 +463,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainCharacter, 1701668637);
+	IMPLEMENT_CLASS(AMainCharacter, 2650278635);
 	template<> FIRSTGAME_API UClass* StaticClass<AMainCharacter>()
 	{
 		return AMainCharacter::StaticClass();

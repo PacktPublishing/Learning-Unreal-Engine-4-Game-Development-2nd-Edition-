@@ -21,6 +21,8 @@
 "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\MainPlayerController.cpp.obj"
 "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\OverlapActor.cpp.obj"
 "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\RotatingActor.cpp.obj"
+"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\SwitchInterface.cpp.obj"
+"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\SwitchTarget.cpp.obj"
 "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\CountessSaveGame.gen.cpp.obj"
 "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\FirstActor.gen.cpp.obj"
 "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\FirstGame.init.gen.cpp.obj"
@@ -35,6 +37,8 @@
 "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\MainPlayerController.gen.cpp.obj"
 "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\OverlapActor.gen.cpp.obj"
 "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\RotatingActor.gen.cpp.obj"
+"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\SwitchInterface.gen.cpp.obj"
+"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\SwitchTarget.gen.cpp.obj"
 "D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\Default.rc2.res"
 /OUT:"D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame.lib"
 /INCLUDE:IMPLEMENT_MODULE_FirstGame

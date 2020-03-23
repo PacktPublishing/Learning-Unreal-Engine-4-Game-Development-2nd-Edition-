@@ -33,7 +33,9 @@ void EmptyLinkFunctionForGeneratedCodeRotatingActor() {}
 		struct RotatingActor_eventSetRotationRate_Parms
 		{
 			float Rate;
+			float ReturnValue;
 		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Rate;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
@@ -41,8 +43,10 @@ void EmptyLinkFunctionForGeneratedCodeRotatingActor() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ARotatingActor_SetRotationRate_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(RotatingActor_eventSetRotationRate_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ARotatingActor_SetRotationRate_Statics::NewProp_Rate = { "Rate", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(RotatingActor_eventSetRotationRate_Parms, Rate), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ARotatingActor_SetRotationRate_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARotatingActor_SetRotationRate_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARotatingActor_SetRotationRate_Statics::NewProp_Rate,
 	};
 #if WITH_METADATA
@@ -93,7 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeRotatingActor() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_FirstGame,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ARotatingActor_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ARotatingActor_SetRotationRate, "SetRotationRate" }, // 2161730892
+		{ &Z_Construct_UFunction_ARotatingActor_SetRotationRate, "SetRotationRate" }, // 1245103349
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARotatingActor_Statics::Class_MetaDataParams[] = {
@@ -165,7 +169,7 @@ void EmptyLinkFunctionForGeneratedCodeRotatingActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARotatingActor, 623975546);
+	IMPLEMENT_CLASS(ARotatingActor, 2590001592);
 	template<> FIRSTGAME_API UClass* StaticClass<ARotatingActor>()
 	{
 		return ARotatingActor::StaticClass();
