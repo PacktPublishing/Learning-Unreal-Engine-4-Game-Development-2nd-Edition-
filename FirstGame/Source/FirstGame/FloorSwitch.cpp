@@ -5,6 +5,8 @@
 #include "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "MainCharacter.h"
+#include "SwitchInterface.h"
+#include "SwitchTarget.h"
 
 // Sets default values
 AFloorSwitch::AFloorSwitch()
@@ -77,3 +79,14 @@ void AFloorSwitch::UpdateFloorSwitchLocations(float DoorLocation, float SwitchLo
 	FloorSwitch->SetWorldLocation(NewSwitchLocation);
 }
 
+void AFloorSwitch::ActivateSwitchTargets()
+{
+	for (ASwitchTarget* SwitchTarget : SwitchTargets)
+	{
+		ISwitchInterface* Interface = Cast<ISwitchInterface>(SwitchTarget);
+		if (Interface)
+		{
+			SwitchTarget->Activate_Implementation();
+		}
+	}
+}

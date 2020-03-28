@@ -39,6 +39,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
 	class AMainPlayerController* MainPlayerController;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Switch")
+	TArray<class ASwitchTarget*> SwitchTargets;
+
+	UFUNCTION(BlueprintCallable)
+	void ActivateSwitchTargets();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

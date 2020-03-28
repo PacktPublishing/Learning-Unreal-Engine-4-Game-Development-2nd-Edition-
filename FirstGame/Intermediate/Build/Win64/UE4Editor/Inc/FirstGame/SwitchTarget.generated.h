@@ -13,27 +13,55 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FIRSTGAME_SwitchTarget_generated_h
 
-#define FirstGame_Source_FirstGame_SwitchTarget_h_12_RPC_WRAPPERS
-#define FirstGame_Source_FirstGame_SwitchTarget_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define FirstGame_Source_FirstGame_SwitchTarget_h_12_INCLASS_NO_PURE_DECLS \
+#define FirstGame_Source_FirstGame_SwitchTarget_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execUpdateSwitchLocation) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Location); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Rotation); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->UpdateSwitchLocation(Z_Param_Location,Z_Param_Rotation); \
+		P_NATIVE_END; \
+	}
+
+
+#define FirstGame_Source_FirstGame_SwitchTarget_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execUpdateSwitchLocation) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Location); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Rotation); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->UpdateSwitchLocation(Z_Param_Location,Z_Param_Rotation); \
+		P_NATIVE_END; \
+	}
+
+
+#define FirstGame_Source_FirstGame_SwitchTarget_h_14_EVENT_PARMS
+#define FirstGame_Source_FirstGame_SwitchTarget_h_14_CALLBACK_WRAPPERS
+#define FirstGame_Source_FirstGame_SwitchTarget_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASwitchTarget(); \
 	friend struct Z_Construct_UClass_ASwitchTarget_Statics; \
 public: \
 	DECLARE_CLASS(ASwitchTarget, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FirstGame"), NO_API) \
-	DECLARE_SERIALIZER(ASwitchTarget)
+	DECLARE_SERIALIZER(ASwitchTarget) \
+	virtual UObject* _getUObject() const override { return const_cast<ASwitchTarget*>(this); }
 
 
-#define FirstGame_Source_FirstGame_SwitchTarget_h_12_INCLASS \
+#define FirstGame_Source_FirstGame_SwitchTarget_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesASwitchTarget(); \
 	friend struct Z_Construct_UClass_ASwitchTarget_Statics; \
 public: \
 	DECLARE_CLASS(ASwitchTarget, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FirstGame"), NO_API) \
-	DECLARE_SERIALIZER(ASwitchTarget)
+	DECLARE_SERIALIZER(ASwitchTarget) \
+	virtual UObject* _getUObject() const override { return const_cast<ASwitchTarget*>(this); }
 
 
-#define FirstGame_Source_FirstGame_SwitchTarget_h_12_STANDARD_CONSTRUCTORS \
+#define FirstGame_Source_FirstGame_SwitchTarget_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASwitchTarget(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASwitchTarget) \
@@ -46,7 +74,7 @@ private: \
 public:
 
 
-#define FirstGame_Source_FirstGame_SwitchTarget_h_12_ENHANCED_CONSTRUCTORS \
+#define FirstGame_Source_FirstGame_SwitchTarget_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASwitchTarget(ASwitchTarget&&); \
@@ -57,26 +85,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASwitchTarget); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASwitchTarget)
 
 
-#define FirstGame_Source_FirstGame_SwitchTarget_h_12_PRIVATE_PROPERTY_OFFSET
-#define FirstGame_Source_FirstGame_SwitchTarget_h_9_PROLOG
-#define FirstGame_Source_FirstGame_SwitchTarget_h_12_GENERATED_BODY_LEGACY \
+#define FirstGame_Source_FirstGame_SwitchTarget_h_14_PRIVATE_PROPERTY_OFFSET
+#define FirstGame_Source_FirstGame_SwitchTarget_h_11_PROLOG \
+	FirstGame_Source_FirstGame_SwitchTarget_h_14_EVENT_PARMS
+
+
+#define FirstGame_Source_FirstGame_SwitchTarget_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FirstGame_Source_FirstGame_SwitchTarget_h_12_PRIVATE_PROPERTY_OFFSET \
-	FirstGame_Source_FirstGame_SwitchTarget_h_12_RPC_WRAPPERS \
-	FirstGame_Source_FirstGame_SwitchTarget_h_12_INCLASS \
-	FirstGame_Source_FirstGame_SwitchTarget_h_12_STANDARD_CONSTRUCTORS \
+	FirstGame_Source_FirstGame_SwitchTarget_h_14_PRIVATE_PROPERTY_OFFSET \
+	FirstGame_Source_FirstGame_SwitchTarget_h_14_RPC_WRAPPERS \
+	FirstGame_Source_FirstGame_SwitchTarget_h_14_CALLBACK_WRAPPERS \
+	FirstGame_Source_FirstGame_SwitchTarget_h_14_INCLASS \
+	FirstGame_Source_FirstGame_SwitchTarget_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FirstGame_Source_FirstGame_SwitchTarget_h_12_GENERATED_BODY \
+#define FirstGame_Source_FirstGame_SwitchTarget_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FirstGame_Source_FirstGame_SwitchTarget_h_12_PRIVATE_PROPERTY_OFFSET \
-	FirstGame_Source_FirstGame_SwitchTarget_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FirstGame_Source_FirstGame_SwitchTarget_h_12_INCLASS_NO_PURE_DECLS \
-	FirstGame_Source_FirstGame_SwitchTarget_h_12_ENHANCED_CONSTRUCTORS \
+	FirstGame_Source_FirstGame_SwitchTarget_h_14_PRIVATE_PROPERTY_OFFSET \
+	FirstGame_Source_FirstGame_SwitchTarget_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FirstGame_Source_FirstGame_SwitchTarget_h_14_CALLBACK_WRAPPERS \
+	FirstGame_Source_FirstGame_SwitchTarget_h_14_INCLASS_NO_PURE_DECLS \
+	FirstGame_Source_FirstGame_SwitchTarget_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

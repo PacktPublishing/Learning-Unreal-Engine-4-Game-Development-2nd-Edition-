@@ -52,6 +52,14 @@ struct FHitResult;
 		P_NATIVE_BEGIN; \
 		P_THIS->OnOverlapBegin(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execActivateSwitchTargets) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ActivateSwitchTargets(); \
+		P_NATIVE_END; \
 	}
 
 
@@ -90,6 +98,14 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->OnOverlapBegin(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execActivateSwitchTargets) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ActivateSwitchTargets(); \
 		P_NATIVE_END; \
 	}
 

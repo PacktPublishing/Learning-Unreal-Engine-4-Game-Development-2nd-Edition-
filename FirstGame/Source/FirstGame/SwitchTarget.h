@@ -3,11 +3,13 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "SwitchInterface.h"
 #include "GameFramework/Actor.h"
 #include "SwitchTarget.generated.h"
 
+
 UCLASS()
-class FIRSTGAME_API ASwitchTarget : public AActor
+class FIRSTGAME_API ASwitchTarget : public AActor, public ISwitchInterface
 {
 	GENERATED_BODY()
 	
@@ -16,7 +18,7 @@ public:
 	ASwitchTarget();
 
 	UPROPERTY(VisibleAnywhere)
-	class UStaticMesh* TargetMesh;
+	class UStaticMeshComponent* TargetMesh;
 
 	FVector InitialLocation;
 	FRotator InitialRotation;
@@ -28,5 +30,13 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	virtual void Activate_Implementation() override;
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Switch Target")
+	void ActivateSwitchTarget();
+
+	UFUNCTION(BlueprintCallable, Category = "Floor Switch")
+	void UpdateSwitchLocation(float Location, float Rotation);
 
 };

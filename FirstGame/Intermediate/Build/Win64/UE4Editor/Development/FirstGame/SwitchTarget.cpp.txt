@@ -1,3 +1,5 @@
 D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\Definitions.FirstGame.h
 d:\packt_new_repository\learning-unreal-engine-4-game-development-2nd-edition-\firstgame\source\firstgame\SwitchTarget.h
+d:\packt_new_repository\learning-unreal-engine-4-game-development-2nd-edition-\firstgame\source\firstgame\SwitchInterface.h
+D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Inc\FirstGame\SwitchInterface.generated.h
 D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Inc\FirstGame\SwitchTarget.generated.h

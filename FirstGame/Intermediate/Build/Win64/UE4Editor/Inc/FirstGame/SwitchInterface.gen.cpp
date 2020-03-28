@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeSwitchInterface() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USwitchInterface_Activate_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Interfaces" },
 		{ "ModuleRelativePath", "SwitchInterface.h" },
 	};
 #endif
@@ -72,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeSwitchInterface() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_FirstGame,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_USwitchInterface_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_USwitchInterface_Activate, "Activate" }, // 2464161982
+		{ &Z_Construct_UFunction_USwitchInterface_Activate, "Activate" }, // 2027532291
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USwitchInterface_Statics::Class_MetaDataParams[] = {
@@ -106,7 +107,7 @@ void EmptyLinkFunctionForGeneratedCodeSwitchInterface() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USwitchInterface, 553324720);
+	IMPLEMENT_CLASS(USwitchInterface, 1650209686);
 	template<> FIRSTGAME_API UClass* StaticClass<USwitchInterface>()
 	{
 		return USwitchInterface::StaticClass();
