@@ -4,3 +4,12 @@
   Reflection code generated for FirstGameEditor in 9.2088065 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 5 actions with 4 processes...
+    [1/5] MainAnimInstance.cpp
+    [2/5] Enemy.cpp
+    [3/5] UE4Editor-FirstGame-0007.lib
+       Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0007.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0007.exp
+    [4/5] UE4Editor-FirstGame-0007.dll
+       Creating library D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0007.suppressed.lib and object D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Development\FirstGame\UE4Editor-FirstGame-0007.suppressed.exp
+    [5/5] FirstGameEditor.target
+  Total time in Parallel executor: 264.13 seconds
+  Total execution time: 275.06 seconds
