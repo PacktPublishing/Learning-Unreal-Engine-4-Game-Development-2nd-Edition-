@@ -109,6 +109,12 @@
     <ClInclude Include="..\..\Source\FirstGame\SwitchTarget.h">
       <Filter>Source\FirstGame</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FirstGame\EnemyController.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstGame\Enemy.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FirstGame\Item.cpp">
@@ -133,6 +139,12 @@
       <Filter>Source\FirstGame</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\FirstGame\SwitchTarget.cpp">
+      <Filter>Source\FirstGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstGame\EnemyController.cpp">
+      <Filter>Source\FirstGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstGame\Enemy.cpp">
       <Filter>Source\FirstGame</Filter>
     </ClCompile>
   </ItemGroup>

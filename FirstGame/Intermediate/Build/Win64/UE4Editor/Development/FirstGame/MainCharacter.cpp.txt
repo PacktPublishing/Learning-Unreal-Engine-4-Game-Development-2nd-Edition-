@@ -44,4 +44,24 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
 d:\packt_new_repository\learning-unreal-engine-4-game-development-2nd-edition-\firstgame\source\firstgame\RotatingActor.h
 D:\Packt_New_Repository\Learning-Unreal-Engine-4-Game-Development-2nd-Edition-\FirstGame\Intermediate\Build\Win64\UE4Editor\Inc\FirstGame\RotatingActor.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystem.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\navigationsystem\public\NavFilters/NavigationQueryFilter.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\navigationsystem\public\NavAreas/NavArea.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAreaBase.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavAreaBase.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavArea.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationQueryFilter.generated.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\navigationsystem\public\NavigationSystemTypes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemConfig.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemConfig.generated.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\navigationsystem\public\NavigationData.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationDataInterface.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationDataInterface.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationData.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemBase.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemBase.generated.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\navigationsystem\public\NavigationOctree.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationSystem.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\NavigationSystem\Public\NavigationPath.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationPath.generated.h
 d:\packt_new_repository\learning-unreal-engine-4-game-development-2nd-edition-\firstgame\source\firstgame\FirstGame.h

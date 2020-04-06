@@ -14,6 +14,9 @@
 #include "DrawDebugHelpers.h"
 #include "RotatingActor.h"
 
+#include "NavigationSystem.h"
+#include "NavigationPath.h"
+
 #include "FirstGame.h"
 
 // Sets default values
@@ -90,6 +93,21 @@ void AMainCharacter::BeginPlay()
 
 	printf("Formatting the string with Actor Name: %s", *GetName());
 	*/
+
+	TSubclassOf<AActor> WorldClassObject = ARotatingActor::StaticClass();
+	TArray<AActor*> ActorsOfClass;
+	UGameplayStatics::GetAllActorsOfClass(this, WorldClassObject, ActorsOfClass);
+	if (ActorsOfClass.Num() > 0)
+	{
+		UNavigationPath* NavPath = UNavigationSystemV1::FindPathToActorSynchronously(this, GetActorLocation(), ActorsOfClass[0]);
+		if (NavPath->PathPoints.Num() > 0)
+		{
+			for (auto pt : NavPath->PathPoints)
+			{
+				DrawDebugSphere(GetWorld(), pt, 20.f, 12, FColor::Red, true);
+			}
+		}
+	}
 }
 
 void AMainCharacter::MoveForward(float Value)

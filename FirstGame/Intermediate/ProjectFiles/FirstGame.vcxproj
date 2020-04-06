@@ -463,9 +463,13 @@
     <NMakeOutput>..\..\Binaries\HTML5\FirstGame-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\FirstGame\Enemy.cpp" />
+    <ClCompile Include="..\..\Source\FirstGame\EnemyController.cpp" />
     <ClCompile Include="..\..\Source\FirstGame\RotatingActor.cpp" />
     <ClCompile Include="..\..\Source\FirstGame\SwitchInterface.cpp" />
     <ClCompile Include="..\..\Source\FirstGame\SwitchTarget.cpp" />
+    <ClInclude Include="..\..\Source\FirstGame\Enemy.h" />
+    <ClInclude Include="..\..\Source\FirstGame\EnemyController.h" />
     <ClInclude Include="..\..\Source\FirstGame\RotatingActor.h" />
     <ClInclude Include="..\..\Source\FirstGame\SwitchInterface.h" />
     <ClInclude Include="..\..\Source\FirstGame\SwitchTarget.h" />
