@@ -16,6 +16,7 @@
 
 #include "NavigationSystem.h"
 #include "NavigationPath.h"
+//#include "Components/BoxComponent.h"
 
 #include "FirstGame.h"
 
@@ -45,6 +46,10 @@ AMainCharacter::AMainCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	// Create the sword collision box
+	//SwordCollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("SwordCollisionBox"));
+	//SwordCollisionBox->SetupAttachment(GetRootComponent());
+
 	Health = 85.f;
 	MaxHealth = 100.f;
 
@@ -72,6 +77,9 @@ void AMainCharacter::SetHealth(float Amount)
 void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//SwordCollisionBox->OnComponentBeginOverlap.AddDynamic(this, &AMainCharacter::SwordBoxBeginOverlap);
+	//SwordCollisionBox->OnComponentEndOverlap.AddDynamic(this, &AMainCharacter::SwordBoxEndOverlap);
 
 	MainPlayerController = Cast<AMainPlayerController>(GetController());
 
@@ -297,3 +305,14 @@ void AMainCharacter::PlaySoundAtRotatingActors(bool PlaySound)
 {
 	DynamicMulticastRotateDelegate.Broadcast(PlaySound);
 }
+/**
+void AMainCharacter::SwordBoxBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+
+}
+
+void AMainCharacter::SwordBoxEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+
+}
+*/

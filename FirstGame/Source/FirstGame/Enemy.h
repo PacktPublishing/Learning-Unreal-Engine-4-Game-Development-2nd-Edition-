@@ -63,9 +63,6 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void SetIsAttacking(bool Attacking);
 
-	void StartAttack();
-	void Attack();
-
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Anims")
 	class UAnimMontage* CountessAttackMontage;
 
@@ -77,9 +74,20 @@ public:
 
 	FTimerHandle AttackTimer;
 
+	/**
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
+	float Health;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
+	float MaxHealth;
+	*/
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	void StartAttack();
+	void Attack();
 
 public:	
 	// Called every frame

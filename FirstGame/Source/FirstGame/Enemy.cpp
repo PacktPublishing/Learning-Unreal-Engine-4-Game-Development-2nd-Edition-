@@ -113,7 +113,6 @@ void AEnemy::AttackSphereBeginOverlap(UPrimitiveComponent* OverlappedComponent, 
 			}
 			EnemyController->GetBlackboard()->SetValueAsBool(TEXT("InAttackRange"), true);
 			bInAttackRange = true;
-
 			bIsAttacking = true;
 		}
 	}
@@ -132,7 +131,6 @@ void AEnemy::AttackSphereEndOverlap(UPrimitiveComponent* OverlappedComponent, AA
 			}
 			EnemyController->GetBlackboard()->SetValueAsBool(TEXT("InAttackRange"), false);
 			bInAttackRange = false;
-
 			bIsAttacking = false;
 		}
 	}
@@ -167,7 +165,7 @@ void AEnemy::StartAttack()
 void AEnemy::Attack()
 {
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
-	if (AnimInstance)
+	if (AnimInstance && CountessAttackMontage)
 	{
 		AnimInstance->Montage_Play(CountessAttackMontage, 1.35f);
 		AnimInstance->Montage_JumpToSection(FName("Attack"), CountessAttackMontage);

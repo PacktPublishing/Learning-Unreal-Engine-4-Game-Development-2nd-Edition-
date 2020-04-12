@@ -79,6 +79,9 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
 	class AMainPlayerController* MainPlayerController;
 
+	//UPROPERTY(VisibleAnywhere, Category = "Combat")
+	//class UBoxComponent* SwordCollisionBox;
+
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -103,4 +106,10 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void PlaySoundAtRotatingActors(bool PlaySound);
+
+	//UFUNCTION()
+	//void SwordBoxBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
+
+	//UFUNCTION()
+	//void SwordBoxEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 };
