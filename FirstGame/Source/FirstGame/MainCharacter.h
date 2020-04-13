@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "BaseCharacter.h"
 #include "MainCharacter.generated.h"
 
 DECLARE_DELEGATE(FRotateDelegate);
@@ -11,7 +11,7 @@ DECLARE_DYNAMIC_DELEGATE_RetVal_OneParam(float, FDynamicRotateDelegate, float, R
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FDynamicMulticastRotateDelegate, bool, bPlaySound);
 
 UCLASS()
-class FIRSTGAME_API AMainCharacter : public ACharacter
+class FIRSTGAME_API AMainCharacter : public ABaseCharacter
 {
 	GENERATED_BODY()
 
@@ -62,25 +62,9 @@ protected:
 	/** Called when the escape or Q buttons are pressed */
 	void ESCDown();
 
-	/** Boolean for when the character is attacking */
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
-	bool bAttacking;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Anims")
-	class UAnimMontage* CountessAttackMontage;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerStats")
-	float Health;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerStats")
-	float MaxHealth;
-
 	/** Reference to the Player Controller */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
 	class AMainPlayerController* MainPlayerController;
-
-	//UPROPERTY(VisibleAnywhere, Category = "Combat")
-	//class UBoxComponent* SwordCollisionBox;
 
 public:
 	// Called every frame
@@ -107,9 +91,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void PlaySoundAtRotatingActors(bool PlaySound);
 
-	//UFUNCTION()
-	//void SwordBoxBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
+	virtual void SwordBoxBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult) override;
 
-	//UFUNCTION()
-	//void SwordBoxEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	virtual void DeathEnd() override;
+
+	FORCEINLINE void AddXP(int32 AddedXP) { XP += AddedXP; }
 };

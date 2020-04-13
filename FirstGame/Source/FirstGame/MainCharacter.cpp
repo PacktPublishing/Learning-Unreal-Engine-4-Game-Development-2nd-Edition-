@@ -16,7 +16,9 @@
 
 #include "NavigationSystem.h"
 #include "NavigationPath.h"
-//#include "Components/BoxComponent.h"
+#include "Components/BoxComponent.h"
+#include "Enemy.h"
+#include "Engine/SkeletalMeshSocket.h"
 
 #include "FirstGame.h"
 
@@ -46,13 +48,11 @@ AMainCharacter::AMainCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
-	// Create the sword collision box
-	//SwordCollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("SwordCollisionBox"));
-	//SwordCollisionBox->SetupAttachment(GetRootComponent());
+
 
 	Health = 85.f;
 	MaxHealth = 100.f;
-
+	Damage = 10.f;
 	RotatingActorRotate = 180.f;
 	bShouldRotatorsPlaySound = true;
 }
@@ -78,8 +78,7 @@ void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	//SwordCollisionBox->OnComponentBeginOverlap.AddDynamic(this, &AMainCharacter::SwordBoxBeginOverlap);
-	//SwordCollisionBox->OnComponentEndOverlap.AddDynamic(this, &AMainCharacter::SwordBoxEndOverlap);
+	SwordCollisionBox->OnComponentBeginOverlap.AddDynamic(this, &AMainCharacter::SwordBoxBeginOverlap);
 
 	MainPlayerController = Cast<AMainPlayerController>(GetController());
 
@@ -129,6 +128,7 @@ void AMainCharacter::MoveForward(float Value)
 		// get forward vector
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 		AddMovementInput(Direction, Value);
+		UE_LOG(LogTemp, Warning, TEXT("Controller"));
 	}
 }
 
@@ -305,14 +305,36 @@ void AMainCharacter::PlaySoundAtRotatingActors(bool PlaySound)
 {
 	DynamicMulticastRotateDelegate.Broadcast(PlaySound);
 }
-/**
+
 void AMainCharacter::SwordBoxBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-
+	if (OtherActor)
+	{
+		AEnemy* Enemy = Cast<AEnemy>(OtherActor);
+		if (Enemy)
+		{
+			if (Enemy->HitParticles)
+			{
+				const USkeletalMeshSocket* WeaponSocket = GetMesh()->GetSocketByName("WeaponBladeLSocket");
+				if (WeaponSocket)
+				{
+					FVector SocketLocation = WeaponSocket->GetSocketLocation(GetMesh());
+					UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Enemy->HitParticles, SocketLocation, FRotator(0.f), false);
+				}
+			}
+			if (Enemy->HitSound)
+			{
+				UGameplayStatics::PlaySound2D(this, Enemy->HitSound);
+			}
+			if (DamageTypeClass)
+			{
+				UGameplayStatics::ApplyDamage(Enemy, Damage, GetController(), this, DamageTypeClass);
+			}
+		}
+	}
 }
 
-void AMainCharacter::SwordBoxEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+void AMainCharacter::DeathEnd()
 {
-
+	UKismetSystemLibrary::QuitGame(this, Cast<APlayerController>(GetController()), EQuitPreference::Quit, true);
 }
-*/

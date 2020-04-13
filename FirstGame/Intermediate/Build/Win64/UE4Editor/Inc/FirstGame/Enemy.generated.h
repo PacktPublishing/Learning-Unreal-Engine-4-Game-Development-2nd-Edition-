@@ -18,15 +18,6 @@ struct FHitResult;
 
 #define FirstGame_Source_FirstGame_Enemy_h_12_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execSetIsAttacking) \
-	{ \
-		P_GET_UBOOL(Z_Param_Attacking); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetIsAttacking(Z_Param_Attacking); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execAttackSphereEndOverlap) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent); \
@@ -90,15 +81,6 @@ struct FHitResult;
 
 
 #define FirstGame_Source_FirstGame_Enemy_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execSetIsAttacking) \
-	{ \
-		P_GET_UBOOL(Z_Param_Attacking); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetIsAttacking(Z_Param_Attacking); \
-		P_NATIVE_END; \
-	} \
  \
 	DECLARE_FUNCTION(execAttackSphereEndOverlap) \
 	{ \
@@ -167,7 +149,7 @@ private: \
 	static void StaticRegisterNativesAEnemy(); \
 	friend struct Z_Construct_UClass_AEnemy_Statics; \
 public: \
-	DECLARE_CLASS(AEnemy, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FirstGame"), NO_API) \
+	DECLARE_CLASS(AEnemy, ABaseCharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FirstGame"), NO_API) \
 	DECLARE_SERIALIZER(AEnemy)
 
 
@@ -176,7 +158,7 @@ private: \
 	static void StaticRegisterNativesAEnemy(); \
 	friend struct Z_Construct_UClass_AEnemy_Statics; \
 public: \
-	DECLARE_CLASS(AEnemy, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FirstGame"), NO_API) \
+	DECLARE_CLASS(AEnemy, ABaseCharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FirstGame"), NO_API) \
 	DECLARE_SERIALIZER(AEnemy)
 
 

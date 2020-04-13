@@ -142,7 +142,7 @@ private: \
 	static void StaticRegisterNativesAMainCharacter(); \
 	friend struct Z_Construct_UClass_AMainCharacter_Statics; \
 public: \
-	DECLARE_CLASS(AMainCharacter, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FirstGame"), NO_API) \
+	DECLARE_CLASS(AMainCharacter, ABaseCharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FirstGame"), NO_API) \
 	DECLARE_SERIALIZER(AMainCharacter)
 
 
@@ -151,7 +151,7 @@ private: \
 	static void StaticRegisterNativesAMainCharacter(); \
 	friend struct Z_Construct_UClass_AMainCharacter_Statics; \
 public: \
-	DECLARE_CLASS(AMainCharacter, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FirstGame"), NO_API) \
+	DECLARE_CLASS(AMainCharacter, ABaseCharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FirstGame"), NO_API) \
 	DECLARE_SERIALIZER(AMainCharacter)
 
 
@@ -182,10 +182,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainCharacter); \
 #define FirstGame_Source_FirstGame_MainCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AMainCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AMainCharacter, FollowCamera); } \
-	FORCEINLINE static uint32 __PPO__bAttacking() { return STRUCT_OFFSET(AMainCharacter, bAttacking); } \
-	FORCEINLINE static uint32 __PPO__CountessAttackMontage() { return STRUCT_OFFSET(AMainCharacter, CountessAttackMontage); } \
-	FORCEINLINE static uint32 __PPO__Health() { return STRUCT_OFFSET(AMainCharacter, Health); } \
-	FORCEINLINE static uint32 __PPO__MaxHealth() { return STRUCT_OFFSET(AMainCharacter, MaxHealth); } \
 	FORCEINLINE static uint32 __PPO__MainPlayerController() { return STRUCT_OFFSET(AMainCharacter, MainPlayerController); }
 
 

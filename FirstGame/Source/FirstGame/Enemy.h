@@ -3,11 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "BaseCharacter.h"
 #include "Enemy.generated.h"
 
 UCLASS()
-class FIRSTGAME_API AEnemy : public ACharacter
+class FIRSTGAME_API AEnemy : public ABaseCharacter
 {
 	GENERATED_BODY()
 public:
@@ -40,7 +40,7 @@ public:
 	class USphereComponent* AgroSphere;
 
 	UPROPERTY(VisibleAnywhere, Category = "BehaviorTree")
-	USphereComponent* AttackSphere;
+		USphereComponent* AttackSphere;
 
 	UFUNCTION()
 	void AgroSphereBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
@@ -54,17 +54,10 @@ public:
 	UFUNCTION()
 	void AttackSphereEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
-	UPROPERTY(BlueprintReadOnly)
-	bool bIsAttacking;
-
 	bool bAttackTimerStarted;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	bool bInAttackRange;
-
-	UFUNCTION(BlueprintCallable)
-	void SetIsAttacking(bool Attacking);
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Anims")
-	class UAnimMontage* CountessAttackMontage;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	float AttackMinTime;
@@ -73,14 +66,6 @@ public:
 	float AttackMaxTime;
 
 	FTimerHandle AttackTimer;
-
-	/**
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
-	float Health;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
-	float MaxHealth;
-	*/
 
 protected:
 	// Called when the game starts or when spawned
@@ -95,5 +80,11 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+
+	virtual void SwordBoxBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult) override;
+
+	virtual void Die(AActor* Causer) override;
+	virtual void DeathEnd() override;
 
 };

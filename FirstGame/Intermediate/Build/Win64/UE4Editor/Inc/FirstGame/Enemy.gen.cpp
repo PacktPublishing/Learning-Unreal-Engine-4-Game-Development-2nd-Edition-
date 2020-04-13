@@ -15,7 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 // Cross Module References
 	FIRSTGAME_API UClass* Z_Construct_UClass_AEnemy_NoRegister();
 	FIRSTGAME_API UClass* Z_Construct_UClass_AEnemy();
-	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+	FIRSTGAME_API UClass* Z_Construct_UClass_ABaseCharacter();
 	UPackage* Z_Construct_UPackage__Script_FirstGame();
 	FIRSTGAME_API UFunction* Z_Construct_UFunction_AEnemy_AgroSphereBeginOverlap();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
@@ -25,8 +25,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 	FIRSTGAME_API UFunction* Z_Construct_UFunction_AEnemy_AttackSphereBeginOverlap();
 	FIRSTGAME_API UFunction* Z_Construct_UFunction_AEnemy_AttackSphereEndOverlap();
 	FIRSTGAME_API UFunction* Z_Construct_UFunction_AEnemy_SetIsAccelerating();
-	FIRSTGAME_API UFunction* Z_Construct_UFunction_AEnemy_SetIsAttacking();
-	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
@@ -40,7 +38,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 			{ "AttackSphereBeginOverlap", &AEnemy::execAttackSphereBeginOverlap },
 			{ "AttackSphereEndOverlap", &AEnemy::execAttackSphereEndOverlap },
 			{ "SetIsAccelerating", &AEnemy::execSetIsAccelerating },
-			{ "SetIsAttacking", &AEnemy::execSetIsAttacking },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -363,43 +360,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics
-	{
-		struct Enemy_eventSetIsAttacking_Parms
-		{
-			bool Attacking;
-		};
-		static void NewProp_Attacking_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Attacking;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	void Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics::NewProp_Attacking_SetBit(void* Obj)
-	{
-		((Enemy_eventSetIsAttacking_Parms*)Obj)->Attacking = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics::NewProp_Attacking = { "Attacking", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(Enemy_eventSetIsAttacking_Parms), &Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics::NewProp_Attacking_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics::NewProp_Attacking,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Enemy.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemy, nullptr, "SetIsAttacking", nullptr, nullptr, sizeof(Enemy_eventSetIsAttacking_Parms), Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AEnemy_SetIsAttacking()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemy_SetIsAttacking_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	UClass* Z_Construct_UClass_AEnemy_NoRegister()
 	{
 		return AEnemy::StaticClass();
@@ -420,14 +380,10 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AttackMinTime;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CountessAttackMontage_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bInAttackRange_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CountessAttackMontage;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsAttacking_MetaData[];
-#endif
-		static void NewProp_bIsAttacking_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsAttacking;
+		static void NewProp_bInAttackRange_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bInAttackRange;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackSphere_MetaData[];
 #endif
@@ -466,7 +422,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_AEnemy_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_ACharacter,
+		(UObject* (*)())Z_Construct_UClass_ABaseCharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_FirstGame,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemy_Statics::FuncInfo[] = {
@@ -475,7 +431,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 		{ &Z_Construct_UFunction_AEnemy_AttackSphereBeginOverlap, "AttackSphereBeginOverlap" }, // 1986583420
 		{ &Z_Construct_UFunction_AEnemy_AttackSphereEndOverlap, "AttackSphereEndOverlap" }, // 364425507
 		{ &Z_Construct_UFunction_AEnemy_SetIsAccelerating, "SetIsAccelerating" }, // 598266105
-		{ &Z_Construct_UFunction_AEnemy_SetIsAttacking, "SetIsAttacking" }, // 1323240655
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemy_Statics::Class_MetaDataParams[] = {
@@ -499,23 +454,16 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemy_Statics::NewProp_AttackMinTime = { "AttackMinTime", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemy, AttackMinTime), METADATA_PARAMS(Z_Construct_UClass_AEnemy_Statics::NewProp_AttackMinTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemy_Statics::NewProp_AttackMinTime_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemy_Statics::NewProp_CountessAttackMontage_MetaData[] = {
-		{ "Category", "Anims" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemy_Statics::NewProp_bInAttackRange_MetaData[] = {
+		{ "Category", "Combat" },
 		{ "ModuleRelativePath", "Enemy.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemy_Statics::NewProp_CountessAttackMontage = { "CountessAttackMontage", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemy, CountessAttackMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemy_Statics::NewProp_CountessAttackMontage_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemy_Statics::NewProp_CountessAttackMontage_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemy_Statics::NewProp_bIsAttacking_MetaData[] = {
-		{ "Category", "Enemy" },
-		{ "ModuleRelativePath", "Enemy.h" },
-	};
-#endif
-	void Z_Construct_UClass_AEnemy_Statics::NewProp_bIsAttacking_SetBit(void* Obj)
+	void Z_Construct_UClass_AEnemy_Statics::NewProp_bInAttackRange_SetBit(void* Obj)
 	{
-		((AEnemy*)Obj)->bIsAttacking = 1;
+		((AEnemy*)Obj)->bInAttackRange = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AEnemy_Statics::NewProp_bIsAttacking = { "bIsAttacking", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AEnemy), &Z_Construct_UClass_AEnemy_Statics::NewProp_bIsAttacking_SetBit, METADATA_PARAMS(Z_Construct_UClass_AEnemy_Statics::NewProp_bIsAttacking_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemy_Statics::NewProp_bIsAttacking_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AEnemy_Statics::NewProp_bInAttackRange = { "bInAttackRange", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AEnemy), &Z_Construct_UClass_AEnemy_Statics::NewProp_bInAttackRange_SetBit, METADATA_PARAMS(Z_Construct_UClass_AEnemy_Statics::NewProp_bInAttackRange_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemy_Statics::NewProp_bInAttackRange_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemy_Statics::NewProp_AttackSphere_MetaData[] = {
 		{ "Category", "BehaviorTree" },
@@ -585,8 +533,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemy_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_AttackMaxTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_AttackMinTime,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_CountessAttackMontage,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_bIsAttacking,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_bInAttackRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_AttackSphere,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_AgroSphere,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_bIsAccelerating,
@@ -623,7 +570,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemy, 3819391131);
+	IMPLEMENT_CLASS(AEnemy, 310968837);
 	template<> FIRSTGAME_API UClass* StaticClass<AEnemy>()
 	{
 		return AEnemy::StaticClass();

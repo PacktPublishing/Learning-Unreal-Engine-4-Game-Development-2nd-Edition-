@@ -10,6 +10,10 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Animation/AnimInstance.h"
 #include "Animation/AnimMontage.h"
+#include "Components/CapsuleComponent.h"
+#include "Components/BoxComponent.h"
+#include "Engine/SkeletalMeshSocket.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AEnemy::AEnemy()
@@ -25,9 +29,15 @@ AEnemy::AEnemy()
 
 	AttackMinTime = .5f; 
 	AttackMaxTime = 1.5f;
-	bIsAttacking = false;
+
+	bAttacking = false;
 	bAttackTimerStarted = false;
 	bInAttackRange = false;
+
+	Health = 20.f;
+	MaxHealth = 20.f;
+	XP = 10;
+	Damage = 20.f;
 }
 
 // Called when the game starts or when spawned
@@ -46,6 +56,8 @@ void AEnemy::BeginPlay()
 	AgroSphere->OnComponentEndOverlap.AddDynamic(this, &AEnemy::AgroSphereEndOverlap);
 	AttackSphere->OnComponentBeginOverlap.AddDynamic(this, &AEnemy::AttackSphereBeginOverlap);
 	AttackSphere->OnComponentEndOverlap.AddDynamic(this, &AEnemy::AttackSphereEndOverlap);
+
+	SwordCollisionBox->OnComponentBeginOverlap.AddDynamic(this, &AEnemy::SwordBoxBeginOverlap);
 }
 
 // Called every frame
@@ -113,7 +125,7 @@ void AEnemy::AttackSphereBeginOverlap(UPrimitiveComponent* OverlappedComponent, 
 			}
 			EnemyController->GetBlackboard()->SetValueAsBool(TEXT("InAttackRange"), true);
 			bInAttackRange = true;
-			bIsAttacking = true;
+			bAttacking = true;
 		}
 	}
 }
@@ -131,19 +143,18 @@ void AEnemy::AttackSphereEndOverlap(UPrimitiveComponent* OverlappedComponent, AA
 			}
 			EnemyController->GetBlackboard()->SetValueAsBool(TEXT("InAttackRange"), false);
 			bInAttackRange = false;
-			bIsAttacking = false;
+			bAttacking = false;
 		}
 	}
 }
 
-void AEnemy::SetIsAttacking(bool Attacking)
-{
-	bIsAttacking = Attacking;
-}
-
 void AEnemy::StartAttack()
 {
-	if (bIsAttacking)
+	if (bInAttackRange)
+	{
+		bAttacking = true;
+	}
+	if (bAttacking)
 	{
 		if (!bAttackTimerStarted)
 		{
@@ -171,4 +182,51 @@ void AEnemy::Attack()
 		AnimInstance->Montage_JumpToSection(FName("Attack"), CountessAttackMontage);
 	}
 	bAttackTimerStarted = false;
+}
+
+void AEnemy::SwordBoxBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	if (OtherActor)
+	{
+		AMainCharacter* Main = Cast<AMainCharacter>(OtherActor);
+		if (Main)
+		{
+			if (Main->HitParticles)
+			{
+				const USkeletalMeshSocket* WeaponSocket = GetMesh()->GetSocketByName("WeaponBladeLSocket");
+				if (WeaponSocket)
+				{
+					FVector SocketLocation = WeaponSocket->GetSocketLocation(GetMesh());
+					UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Main->HitParticles, SocketLocation, FRotator(0.f), false);
+				}
+			}
+			if (Main->HitSound)
+			{
+				UGameplayStatics::PlaySound2D(this, Main->HitSound);
+			}
+			if (DamageTypeClass)
+			{
+				UGameplayStatics::ApplyDamage(Main, Damage, GetController(), this, DamageTypeClass);
+			}
+		}
+	}
+}
+
+void AEnemy::DeathEnd()
+{
+	Destroy();
+}
+
+void AEnemy::Die(AActor* Causer)
+{
+	Super::Die(Causer);
+
+	AgroSphere->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	AttackSphere->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+	AMainCharacter* Main = Cast<AMainCharacter>(Causer);
+	if (Main)
+	{
+		Main->AddXP(XP);
+	}
 }

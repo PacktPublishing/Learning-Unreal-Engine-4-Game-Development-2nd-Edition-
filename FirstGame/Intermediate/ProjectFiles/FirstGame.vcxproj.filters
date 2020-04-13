@@ -144,4 +144,14 @@
       <Filter>Source\FirstGame</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FirstGame\BaseCharacter.h">
+      <Filter>Source\FirstGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FirstGame\BaseCharacter.cpp">
+      <Filter>Source\FirstGame</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
