@@ -38,7 +38,7 @@ public:
 		class APawn* Pawn;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Movement)
-		class AMainCharacter* Main;
+		class AMainCharacter* MainChar;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Movement)
 	class AEnemy* Enemy;

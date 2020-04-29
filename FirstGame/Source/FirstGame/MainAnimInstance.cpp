@@ -18,7 +18,7 @@ void UMainAnimInstance::NativeInitializeAnimation()
 		Pawn = TryGetPawnOwner();
 		if (Pawn)
 		{
-			Main = Cast<AMainCharacter>(Pawn);
+			MainChar = Cast<AMainCharacter>(Pawn);
 			Enemy = Cast<AEnemy>(Pawn);
 		}
 	}
@@ -48,14 +48,14 @@ void UMainAnimInstance::UpdateAnimationProperties(float DeltaTime)
 
 		RotationLastFrame = Rotation;
 
-		if (Main == nullptr)
+		if (MainChar == nullptr)
 		{
-			Main = Cast<AMainCharacter>(Pawn);
+			MainChar = Cast<AMainCharacter>(Pawn);
 		}
 
-		if (Main)
+		if (MainChar)
 		{
-			if (Main->GetCharacterMovement()->GetCurrentAcceleration().Size() > 0)
+			if (MainChar->GetCharacterMovement()->GetCurrentAcceleration().Size() > 0)
 			{
 				bIsAccelerating = true;
 			}
